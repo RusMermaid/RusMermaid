@@ -1,4 +1,3 @@
-### Hi there 👋
 📊 Stats
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=RusGol718&count_private=true&theme=tokyonight&showicons=true)]()
