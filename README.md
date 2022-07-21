@@ -1,7 +1,6 @@
 📊 Stats
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusGol718&langs_count=5&theme=tokyonight)]()
-
 <!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
