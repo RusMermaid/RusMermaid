@@ -1,8 +1,8 @@
 ### Hi there 👋
 📊 Stats
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=RusGol718&count_private=true&theme=slate&showicons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusGol718&langs_count=5&theme=slate)]()
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=RusGol718&count_private=true&theme=tokyonight&showicons=true)]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusGol718&langs_count=5&theme=tokyonight)]()
 <!--
 **RusGol718/RusGol718** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
