@@ -7,6 +7,8 @@
 [![Generic badge](https://img.shields.io/badge/Code-Python-802121.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Code-SQL-ab5635)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Code-Assembly-d1833f)](https://shields.io/)
+
+[![Generic badge](https://img.shields.io/badge/Code-F%23-1c6105.svg)](https://shields.io/)
 <!--
 [![Generic badge]()](https://shields.io/)
 [![Generic badge]()](https://shields.io/)
