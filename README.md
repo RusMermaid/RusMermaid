@@ -17,7 +17,7 @@
 
 📊 Stats
 
-[Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
+![Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&theme=codeSTACKr&exclude_repo=Ural_CS)]()
 
