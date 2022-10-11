@@ -15,6 +15,9 @@
 [![Generic badge]()](https://shields.io/)
 -->
 
+Follow me to a place...
+[![website](./img/facebook-dark.svg)](https://www.facebook.com/rus.gD#gh-dark-mode-only)
+
 📊 Stats
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
