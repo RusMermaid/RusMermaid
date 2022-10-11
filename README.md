@@ -17,8 +17,7 @@
 
 Follow me to a place...
 
-[![website](./img/youtube-light.svg)](https://youtube.com/UCu-5F8ZwJ_FVeHjPpNIudxA)
-[![website](./img/youtube.svg)](https://youtube.com/UCu-5F8ZwJ_FVeHjPpNIudxA)
+[![My Youtube](./img/youtube.svg)](https://youtube.com/UCu-5F8ZwJ_FVeHjPpNIudxA)
 &nbsp;&nbsp;
 
 📊 Stats
