@@ -17,7 +17,7 @@
 
 Follow me to a place...
 
-[![website](./img/youtube-dark.svg)]([https://youtube.com/codestackr](https://www.youtube.com/channel/UCu-5F8ZwJ_FVeHjPpNIudxA)#gh-dark-mode-only)
+[![website](./img/youtube-dark.svg)](https://youtube.com/codestackr#gh-dark-mode-only)
 
 📊 Stats
 
