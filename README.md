@@ -23,7 +23,7 @@ Follow me to a place...
 📊 My statistics:
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=10&theme=codeSTACKr&exclude_repo=Ural_CS&hide=[nix])]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=10&theme=codeSTACKr&exclude_repo=Ural_CS&hide=[Nix])]()
 
 
 
