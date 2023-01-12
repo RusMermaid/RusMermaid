@@ -26,5 +26,4 @@ Follow me to a place...
 ![Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&count_private=true&theme=codeSTACKr&hide=nix,dockerfile,html,glsl,c++,gdscript,javascript,css)]()
 
-
 <!--&include_repo=Ural_CS
