@@ -1,4 +1,4 @@
-🗣 My Skills:
+## My Skills:
 
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white&color=890ab8&labelColor=purple)
 ![VB.Net](https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white&color=890ab8&labelColor=purple)
@@ -14,7 +14,7 @@
 ![Mathematica](https://img.shields.io/badge/Mathematica-%23008080.svg?style=for-the-badge&logo=scipy&logoColor=white&color=0ab076&labelColor=127c57)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white&color=0ab076&labelColor=127c57)
 
-Editors:
+# Editors:
 
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white&color=890ab8&labelColor=purple)
 ![Rider](https://img.shields.io/badge/Rider-000000.svg?style=for-the-badge&logo=Rider&logoColor=white&color=890ab8&labelColor=purple)
@@ -29,13 +29,13 @@ Editors:
 [![Generic badge]()](https://shields.io/)
 [![Generic badge]()](https://shields.io/)
 -->
-My browsers:
+# My browsers:
 
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white&color=4577da&labelColor=2e4f90)
 ![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white&color=4577da&labelColor=2e4f90)
 ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white&color=4577da&labelColor=2e4f90)
 
-My OS:
+# My OS:
 
 ![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white&color=ff8cc8&labelColor=f6398e)
 
@@ -48,15 +48,13 @@ Follow me to a place...
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ruslango.work@gmail.com)
 
-&nbsp;&nbsp;
-
-📊 My statistics:
+# My statistics:
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
 ![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&count_private=true&theme=codeSTACKr&hide=nix,dockerfile,html,glsl,c++,gdscript,javascript,css)
 <!--&include_repo=Ural_CS
 -->
-Lets play Chess!
+# Lets play Chess!
 <!-- BEGIN CHESS BOARD -->
 
 <!-- END CHESS BOARD -->
@@ -68,7 +66,7 @@ Lets play Chess!
 
 Having fun? Ask a friend to do the next move!
 
-#### How it works
+ How it works
 
 When you click on a link and submit a new issue with the desired move, a GitHub action is triggered, which in turn runs a small python script that performs the specified movement, updates this README file and commits the changes.
 
