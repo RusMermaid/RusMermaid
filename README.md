@@ -88,3 +88,7 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
   Visitors<br>
   <img src="https://profile-counter.glitch.me/RusMermaid/count.svg" />
 </p>
+
+![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
+<br />
+<br />
