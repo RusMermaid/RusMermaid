@@ -35,11 +35,18 @@ My browsers:
 ![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white&color=4577da&labelColor=2e4f90)
 ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white&color=4577da&labelColor=2e4f90)
 
+My OS:
+
+![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white&color=ff8cc8&labelColor=f6398e)
+
+
+
 
 Follow me to a place...
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCu-5F8ZwJ_FVeHjPpNIudxA)
-
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 &nbsp;&nbsp;
 
