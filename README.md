@@ -87,3 +87,9 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 <!-- END LAST MOVES -->
 </details>
 
+
+
+<p> 
+  Visitors<br>
+  <img src="https://profile-counter.glitch.me/RusMermaid/count.svg" />
+</p>
