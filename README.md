@@ -56,3 +56,29 @@ Follow me to a place...
 ![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&count_private=true&theme=codeSTACKr&hide=nix,dockerfile,html,glsl,c++,gdscript,javascript,css)
 <!--&include_repo=Ural_CS
 -->
+Lets play Chess!
+<!-- BEGIN CHESS BOARD -->
+
+<!-- END CHESS BOARD -->
+
+**It's your turn to move! Choose one from the following table**
+<!-- BEGIN MOVES LIST -->
+
+<!-- END MOVES LIST -->
+
+Having fun? Ask a friend to do the next move!
+
+#### How it works
+
+When you click on a link and submit a new issue with the desired move, a GitHub action is triggered, which in turn runs a small python script that performs the specified movement, updates this README file and commits the changes.
+
+Have you spotted a bug? Something missing? Feel free to open an [issue](https://github.com/marcizhu/readme-chess/issues) and I will try to fix it as soon as possible :D
+
+
+<details>
+  <summary>Last 5 moves in this game</summary>
+<!-- BEGIN LAST MOVES -->
+
+<!-- END LAST MOVES -->
+</details>
+
