@@ -1,6 +1,7 @@
 🗣 My languages:
 
 [![Generic badge](https://img.shields.io/badge/Code-C%23-000aff.svg)](https://shields.io/)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=000aff)
 [![Generic badge](https://img.shields.io/badge/Code-C++-7500fa)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Code-Visual%20Basic-8a00fa)](https://shields.io/)
 
