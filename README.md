@@ -69,7 +69,8 @@ Follow me to a place...
 |   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
 <!-- END CHESS BOARD -->
 
-**It's your turn to move! Choose one from the following table**
+**It's your turn to move! Choose one from the following table by clicking a linked move, them just submitt the issue without changing anything!**
+**And you're goog to go!**
 <!-- BEGIN MOVES LIST -->
 |  FROM  | TO (Just click a link!) |
 | :----: | :---------------------- |
@@ -87,11 +88,6 @@ Follow me to a place...
 
 Having fun? Ask a friend to do the next move!
 
- How it works
-
-When you click on a link and submit a new issue with the desired move, a GitHub action is triggered, which in turn runs a small python script that performs the specified movement, updates this README file and commits the changes.
-
-Have you spotted a bug? Something missing? Feel free to open an [issue](https://github.com/marcizhu/readme-chess/issues) and I will try to fix it as soon as possible :D
 
 
 <details>
