@@ -1,3 +1,4 @@
+e2e4: @RusMermaid
 b8c6: @Degreezee
 d2d4: @RusMermaid
 Start game: @RusMermaid
