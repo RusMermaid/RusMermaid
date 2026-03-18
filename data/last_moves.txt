@@ -1,3 +1,4 @@
+f1e2: @RusMermaid
 g7g6: @fiorin
 a2a3: @RusMermaid
 c7c6: @UltWolf
