@@ -58,6 +58,12 @@
   <img height="32" src="./assets/category-theory-heroes-badge-v2.svg" alt="Category Theory" />
 </p>
 
+<p align="center">
+  <img height="32" src="./assets/real-functional-analysis-heroes-badge.svg" alt="Real & Functional Analysis" />
+  <img height="32" src="./assets/differential-topology-heroes-badge.svg" alt="Differential Topology" />
+  <img height="32" src="./assets/geometric-topology-heroes-badge.svg" alt="Geometric Topology" />
+</p>
+
 <!--
 [![Generic badge]()](https://shields.io/)
 [![Generic badge]()](https://shields.io/)
