@@ -4,7 +4,7 @@
   <img height="34" src="./assets/csharp-heroes-badge.svg" alt="C#" />
   <img height="34" src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="F#" />
   <img height="34" src="https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="VB.NET" />
-  <img height="34" src="./assets/azure-dotnet-heroes-badge.svg" alt="Azure.NET" />
+  <img height="34" src="./assets/azure-dotnet-heroes-badge-v2.svg" alt="Azure.NET" />
   <img height="34" src="./assets/asp-core-heroes-badge.svg" alt="ASP Core" />
   <img height="34" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt=".NET" />
   <img height="34" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="C++" />
