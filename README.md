@@ -59,7 +59,7 @@
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/real-analysis-heroes-badge-v3.svg" alt="Real Analysis" />
+  <img height="32" src="./assets/real-analysis-heroes-badge-v4.svg" alt="Real Analysis" />
   <img height="32" src="./assets/differential-topology-heroes-badge-v4.svg" alt="Differential Topology" />
   <img height="32" src="./assets/geometric-topology-heroes-badge-v4.svg" alt="Geometric Topology" />
 </p>
