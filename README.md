@@ -59,9 +59,9 @@
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/real-functional-analysis-heroes-badge.svg" alt="Real & Functional Analysis" />
-  <img height="32" src="./assets/differential-topology-heroes-badge.svg" alt="Differential Topology" />
-  <img height="32" src="./assets/geometric-topology-heroes-badge.svg" alt="Geometric Topology" />
+  <img height="32" src="./assets/real-functional-analysis-heroes-badge-v2.svg" alt="Real & Functional Analysis" />
+  <img height="32" src="./assets/differential-topology-heroes-badge-v2.svg" alt="Differential Topology" />
+  <img height="32" src="./assets/geometric-topology-heroes-badge-v2.svg" alt="Geometric Topology" />
 </p>
 
 <!--
