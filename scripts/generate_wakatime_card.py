@@ -36,10 +36,10 @@ OUTPUT_PATH = Path(
     os.environ.get("OUTPUT_PATH", "assets/wakatime-all-time.svg"),
 )
 ESTIMATED_LIFETIME_HOURS = (
-    ("C#", 1400),
-    ("Python", 820),
-    ("Jupyter Notebook", 620),
-    ("C++", 510),
+    ("C#", 3780),
+    ("Python", 850),
+    ("Jupyter Notebook", 820),
+    ("C++", 650),
     ("F#", 250),
     ("Mathematica", 210),
     ("Uiua", 170),
