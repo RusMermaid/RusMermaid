@@ -3,7 +3,7 @@ name: Update all-time WakaTime card
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 3 * * 1"
+    - cron: "23 3 * * *"
 
 permissions:
   contents: write
@@ -17,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -35,11 +35,19 @@ jobs:
           fi
           python scripts/generate_wakatime_card.py
 
+      - name: Embed first real card without touching chess
+        if: ${{ hashFiles('assets/wakatime-all-time.svg') != '' }}
+        run: python scripts/embed_wakatime_card.py
+
       - name: Commit updated card
         run: |
+          if [ ! -f assets/wakatime-all-time.svg ]; then
+            echo "No language has crossed one hour yet; nothing to publish."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/wakatime-all-time.svg
+          git add assets/wakatime-all-time.svg README.md
           if git diff --cached --quiet; then
             echo "Card is already current."
             exit 0
