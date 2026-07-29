@@ -51,7 +51,10 @@ Follow me to a place...
 
 ![Github stats](https://github-stats-extended.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
 
-![My GitHub Language Stats](https://github-stats-extended.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&count_private=true&exclude_repo=Ural_CS&theme=codeSTACKr&hide=nix,dockerfile,html,glsl,c++,gdscript,javascript,css)
+<p>
+  <img width="48%" align="center" src="https://github-stats-extended.vercel.app/api/top-langs/?username=RusMermaid&amp;langs_count=7&amp;count_private=true&amp;exclude_repo=Ural_CS&amp;theme=codeSTACKr&amp;hide=nix,dockerfile,html,glsl,gdscript,javascript,css" alt="My GitHub Language Stats" />
+  <img width="48%" align="center" src="./assets/wakatime-all-time.svg" alt="My All-Time Coding Stats" />
+</p>
 <!--&include_repo=Ural_CS
 -->
 # Lets play Chess!
