@@ -1,18 +1,30 @@
 <img src="./assets/my-skills-heroes-title.svg" alt="My Skills:" width="100%" />
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
-![VB.Net](https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
+<p align="center">
+  <img height="34" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="C#" />
+  <img height="34" src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="F#" />
+  <img height="34" src="https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="VB.NET" />
+  <img height="34" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt=".NET" />
+  <img height="34" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="C++" />
+</p>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=d9e7ff&color=a88465&labelColor=a88465)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=d9e7ff&color=a88465&labelColor=a88465)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=d9e7ff&color=a88465&labelColor=a88465)
-![CPlot](https://img.shields.io/badge/CPlot-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=d9e7ff&color=a88465&labelColor=a88465)
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Python" />
+  <img height="32" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Jupyter" />
+  <img height="32" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="NumPy" />
+  <img height="32" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Pandas" />
+  <img height="32" src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="SciPy" />
+  <img height="32" src="https://img.shields.io/badge/CPlot-3F4F75?style=for-the-badge&logo=plotly&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="CPlot" />
+</p>
 
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=d9e7ff&color=46566f&labelColor=46566f)
-![Mathematica](https://img.shields.io/badge/Mathematica-%23008080.svg?style=for-the-badge&logo=scipy&logoColor=d9e7ff&color=46566f&labelColor=46566f)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f)
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="LaTeX" />
+  <img height="32" src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Mathematica" />
+  <img height="32" src="https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="SymPy" />
+  <img height="32" src="https://img.shields.io/badge/Uiua-2A2A2A?style=for-the-badge&logo=uiua&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Uiua" />
+  <img height="32" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="MySQL" />
+  <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
+</p>
 
 # Editors:
 
