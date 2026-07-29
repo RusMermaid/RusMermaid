@@ -30,7 +30,7 @@
   <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
 </p>
 
-<img src="./assets/editors-heroes-title.svg" alt="Editors:" width="100%" />
+<img src="./assets/editors-heroes-title-v2.svg" alt="Editors:" width="100%" />
 
 <p align="center">
   <img height="32" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="GitHub" />
