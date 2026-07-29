@@ -110,7 +110,7 @@ def fetch_all_time_languages(
     )
 
 
-def find_project_start(client: WakaTimeClient, project_name: str) -> date:
+def find_project_start(client: WakaTimeClient, project_name: str) -> date | None:
     _, payload = client.get(
         "/users/current/projects",
         {"q": project_name},
@@ -121,13 +121,11 @@ def find_project_start(client: WakaTimeClient, project_name: str) -> date:
         None,
     )
     if project is None:
-        available = ", ".join(
-            str(item.get("name")) for item in projects[:8]
+        print(
+            f'WakaTime project "{project_name}" is not present yet; '
+            "no Spire JSON time needs remapping.",
         )
-        raise RuntimeError(
-            f'WakaTime project "{project_name}" was not found. '
-            f"Nearby project names: {available or 'none'}.",
-        )
+        return None
 
     first_activity = (
         parse_datetime(project.get("first_heartbeat_at"))
@@ -148,6 +146,8 @@ def fetch_project_languages(
     project_name: str,
 ) -> list[dict[str, Any]]:
     current = find_project_start(client, project_name)
+    if current is None:
+        return []
     today = datetime.now(timezone.utc).date()
     totals: dict[str, float] = defaultdict(float)
     colors: dict[str, str] = {}
@@ -318,6 +318,10 @@ def main() -> None:
             )
         client = WakaTimeClient(api_key)
         global_languages = fetch_all_time_languages(client)
+        if not global_languages:
+            raise RuntimeError(
+                "WakaTime has no recorded language time yet; keeping the previous card unchanged.",
+            )
         spire_languages = fetch_project_languages(client, SPIRE_PROJECT)
 
     languages = remap_and_sort(global_languages, spire_languages)
