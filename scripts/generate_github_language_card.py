@@ -14,7 +14,7 @@ SOURCE_URL = (
     "&exclude_repo=Ural_CS&theme=codeSTACKr"
     "&hide=nix,dockerfile,html,glsl,gdscript,javascript,css"
 )
-OUTPUT_PATH = Path("assets/github-languages-moonlight.svg")
+OUTPUT_PATH = Path("assets/github-languages-heroes-moonlight.svg")
 MOONLIGHT_COLORS = (
     "#5a4028",
     "#a88465",
