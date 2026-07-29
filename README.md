@@ -21,11 +21,11 @@
 </p>
 
 <p align="center">
-  <img height="32" src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="LaTeX" />
+  <img height="32" src="./assets/latex-tex-heroes-badge.svg" alt="LaTeX" />
   <img height="32" src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Mathematica" />
   <img height="32" src="https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="SymPy" />
   <img height="32" src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Haskell" />
-  <img height="32" src="https://img.shields.io/badge/Uiua-2A2A2A?style=for-the-badge&logo=uiua&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Uiua" />
+  <img height="32" src="./assets/uiua-official-heroes-badge.svg" alt="Uiua" />
   <img height="32" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="MySQL" />
   <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
 </p>
