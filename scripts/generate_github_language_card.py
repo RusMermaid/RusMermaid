@@ -16,12 +16,12 @@ SOURCE_URL = (
 )
 OUTPUT_PATH = Path("assets/github-languages-moonlight.svg")
 MOONLIGHT_COLORS = (
+    "#5a4028",
     "#a88465",
-    "#737b91",
-    "#536fa8",
+    "#46566f",
+    "#5d74a2",
     "#688ac0",
     "#83a6d5",
-    "#a8c8e8",
     "#d1e6fa",
 )
 
