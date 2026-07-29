@@ -30,15 +30,23 @@
   <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
 </p>
 
-# Editors:
+<img src="./assets/editors-heroes-title.svg" alt="Editors:" width="100%" />
 
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white&color=890ab8&labelColor=purple)
-![Rider](https://img.shields.io/badge/Rider-000000.svg?style=for-the-badge&logo=Rider&logoColor=white&color=890ab8&labelColor=purple)
-![CLion](https://img.shields.io/badge/CLion-black?style=for-the-badge&logo=clion&logoColor=white&color=890ab8&labelColor=purple)
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="GitHub" />
+  <img height="32" src="https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Rider" />
+  <img height="32" src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="CLion" />
+  <img height="32" src="./assets/coq-heroes-badge.svg" alt="Coq" />
+</p>
 
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=white&color=f2870d&labelColor=f55210)
-![Replit](https://img.shields.io/badge/Repl.it-DD1200?style=for-the-badge&logo=Replit&logoColor=white&color=f2870d&labelColor=f55210)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white&color=f2870d&labelColor=f55210)
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="PyCharm" />
+  <img height="32" src="https://img.shields.io/badge/Jupyter%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Jupyter Notebooks" />
+  <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Google Colab" />
+  <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Replit" />
+  <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Overleaf" />
+  <img height="32" src="./assets/prism-heroes-badge.svg" alt="Prism" />
+</p>
 
 <!--
 [![Generic badge]()](https://shields.io/)
