@@ -319,16 +319,14 @@ def main() -> None:
         client = WakaTimeClient(api_key)
         global_languages = fetch_all_time_languages(client)
         if not global_languages:
-            raise RuntimeError(
-                "WakaTime has no recorded language time yet; keeping the previous card unchanged.",
-            )
+            print("WakaTime has no recorded language time yet; card remains unpublished.")
+            return
         spire_languages = fetch_project_languages(client, SPIRE_PROJECT)
 
     languages = remap_and_sort(global_languages, spire_languages)
     if not languages:
-        raise RuntimeError(
-            "No WakaTime languages over one hour yet; keeping the previous card unchanged.",
-        )
+        print("No WakaTime languages are over one hour yet; card remains unpublished.")
+        return
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(render_svg(languages), encoding="utf-8")
     print(f"Generated {OUTPUT_PATH} with {len(languages)} languages.")
