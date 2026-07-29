@@ -1,7 +1,7 @@
 <img src="./assets/my-skills-heroes-title.svg" alt="My Skills:" width="100%" />
 
 <p align="center">
-  <img height="34" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="C#" />
+  <img height="34" src="./assets/csharp-heroes-badge.svg" alt="C#" />
   <img height="34" src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="F#" />
   <img height="34" src="https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="VB.NET" />
   <img height="34" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt=".NET" />
@@ -21,6 +21,7 @@
   <img height="32" src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="LaTeX" />
   <img height="32" src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Mathematica" />
   <img height="32" src="https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="SymPy" />
+  <img height="32" src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Haskell" />
   <img height="32" src="https://img.shields.io/badge/Uiua-2A2A2A?style=for-the-badge&logo=uiua&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Uiua" />
   <img height="32" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="MySQL" />
   <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
