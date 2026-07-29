@@ -5,11 +5,11 @@ from pathlib import Path
 
 
 README_PATH = Path("README.md")
-LANGUAGE_CARD = "![My GitHub Language Stats](./assets/github-languages-moonlight.svg)"
-TIME_CARD_PATH = "./assets/wakatime-all-time.svg"
+LANGUAGE_CARD = "![My GitHub Language Stats](./assets/github-languages-heroes-moonlight.svg)"
+TIME_CARD_PATH = "./assets/wakatime-all-time-heroes-moonlight.svg"
 TWO_COLUMN_BLOCK = """<p>
-  <img width="48%" align="center" src="./assets/github-languages-moonlight.svg" alt="My GitHub Language Stats" />
-  <img width="48%" align="center" src="./assets/wakatime-all-time.svg" alt="My All-Time Coding Stats" />
+  <img width="48%" align="center" src="./assets/github-languages-heroes-moonlight.svg" alt="My GitHub Language Stats" />
+  <img width="48%" align="center" src="./assets/wakatime-all-time-heroes-moonlight.svg" alt="My All-Time Coding Stats" />
 </p>
 """
 
