@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="28" viewBox="0 0 92 28" role="img" aria-labelledby="title desc">
+  <title id="title">Azure .NET</title>
+  <desc id="desc">Azure icon followed by .NET in the Heroes moonlight palette</desc>
+  <rect width="92" height="28" rx="3" fill="#5a4028"/>
+  <path d="M7 21 14.4 6h6.3l-8 15Z" fill="#d9e7ff"/>
+  <path d="m17.5 17.2 3.3-6.5L29 21H14.9l2-3.8Z" fill="#d9e7ff" opacity=".92"/>
+  <path d="M34 5v18" stroke="#a88465" stroke-width="1" opacity=".72"/>
+  <text x="43" y="18.2" fill="#d9e7ff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" letter-spacing="1">.NET</text>
+</svg>
