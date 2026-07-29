@@ -1,0 +1,49 @@
+name: Update moonlight GitHub language card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-language-card
+  cancel-in-progress: false
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate moonlight language card
+        run: python scripts/generate_github_language_card.py
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-languages-moonlight.svg
+          if git diff --cached --quiet; then
+            echo "Card is already current."
+            exit 0
+          fi
+          git commit -m "Update moonlight GitHub language card"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push raced with another profile update; retrying (${attempt}/3)."
+            sleep 5
+          done
+          echo "::error::Could not push the refreshed card after three attempts."
+          exit 1
