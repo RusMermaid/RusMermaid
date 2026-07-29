@@ -21,7 +21,7 @@ from typing import Any
 API_ROOT = "https://api.wakatime.com/api/v1"
 MIN_SECONDS = 60 * 60
 MAX_LANGUAGES = 7
-PINNED_LANGUAGES = ("C#", "F#", "Python")
+PINNED_LANGUAGES: tuple[str, ...] = ()
 MOONLIGHT_COLORS = (
     "#5a4028",
     "#a88465",
@@ -36,14 +36,19 @@ OUTPUT_PATH = Path(
     os.environ.get("OUTPUT_PATH", "assets/wakatime-all-time.svg"),
 )
 ESTIMATED_LIFETIME_HOURS = (
-    ("C#", 980),
-    ("F#", 520),
-    ("Python", 410),
-    ("C++", 260),
-    ("Mathematica", 190),
-    ("C", 140),
-    ("Java", 90),
+    ("C#", 1400),
+    ("Python", 820),
+    ("Jupyter Notebook", 620),
+    ("C++", 510),
+    ("F#", 250),
+    ("Mathematica", 210),
+    ("Uiua", 170),
+    ("C", 65),
+    ("Other", 30),
 )
+LANGUAGE_ALIASES = {
+    "Jupyter": "Jupyter Notebook",
+}
 
 FALLBACK_COLORS = {
     "C#": "#178600",
@@ -198,7 +203,8 @@ def remap_and_sort(
         seconds[name] += hours * 3600
 
     for language in global_languages:
-        name = str(language.get("name", "Other"))
+        raw_name = str(language.get("name", "Other"))
+        name = LANGUAGE_ALIASES.get(raw_name, raw_name)
         seconds[name] += float(language.get("total_seconds", 0))
         if language.get("color"):
             colors[name] = str(language["color"])
