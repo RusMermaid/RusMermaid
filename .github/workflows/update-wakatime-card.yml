@@ -1,0 +1,57 @@
+name: Update all-time WakaTime card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-wakatime-card
+  cancel-in-progress: false
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate all-time coding card
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SPIRE_PROJECT: SpireModH3
+        run: |
+          if [ -z "$WAKATIME_API_KEY" ]; then
+            echo "::error::Add WAKATIME_API_KEY under repository Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          python scripts/generate_wakatime_card.py
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/wakatime-all-time.svg
+          if git diff --cached --quiet; then
+            echo "Card is already current."
+            exit 0
+          fi
+          git commit -m "Update all-time WakaTime card"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push raced with another profile update; retrying (${attempt}/3)."
+            sleep 5
+          done
+          echo "::error::Could not push the refreshed card after three attempts."
+          exit 1
