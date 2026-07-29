@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="28" viewBox="0 0 84 28" role="img" aria-labelledby="title desc">
+  <title id="title">Coq</title>
+  <desc id="desc">Coq badge with a rooster emblem in the Heroes moonlight palette</desc>
+  <rect width="84" height="28" rx="3" fill="#a88465"/>
+  <g fill="#d9e7ff">
+    <ellipse cx="16" cy="16.5" rx="7" ry="5"/>
+    <circle cx="20.5" cy="10.5" r="4"/>
+    <circle cx="18.7" cy="6.4" r="1.8"/>
+    <circle cx="21.2" cy="5.7" r="1.8"/>
+    <circle cx="23.4" cy="7.1" r="1.7"/>
+    <path d="m24 9.5 5 2.2-5 1.7Z"/>
+    <path d="M10.5 14.5Q6 9 5 11.5q3 2 4 5-4-2.5-5-.3 3.7 2.7 7.5 3.2Z"/>
+  </g>
+  <circle cx="21.8" cy="10" r=".75" fill="#a88465"/>
+  <path d="M13.5 21v3m5-3v3m-7 0h4m1 0h4" stroke="#d9e7ff" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M32 5v18" stroke="#d9e7ff" stroke-width="1" opacity=".35"/>
+  <text x="58" y="18.2" text-anchor="middle" fill="#d9e7ff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" letter-spacing="1">COQ</text>
+</svg>
