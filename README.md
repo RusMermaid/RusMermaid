@@ -41,12 +41,12 @@
 </p>
 
 <p align="center">
-  <img height="32" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PyCharm" />
-  <img height="32" src="https://img.shields.io/badge/Jupyter%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Jupyter Notebooks" />
-  <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Google Colab" />
-  <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Replit" />
-  <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Overleaf" />
-  <img height="32" src="./assets/prism-heroes-badge-v2.svg" alt="Prism" />
+  <img height="32" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="PyCharm" />
+  <img height="32" src="https://img.shields.io/badge/Jupyter%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Jupyter Notebooks" />
+  <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Google Colab" />
+  <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Replit" />
+  <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Overleaf" />
+  <img height="32" src="./assets/prism-heroes-badge.svg" alt="Prism" />
 </p>
 
 <!--
