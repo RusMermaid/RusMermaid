@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="608" role="img" aria-labelledby="title desc">
+  <title id="title">All-Time Coding</title>
+  <desc id="desc">All-time WakaTime language totals over one hour, with SpireModH3 classified as C++.</desc>
+  <style>
+    .title { fill: #d2ad86; font: 700 25px "Segoe UI", Ubuntu, sans-serif; }
+    .language { fill: #d9e7ff; font: 400 17px "Segoe UI", Ubuntu, sans-serif; }
+    .hours { fill: #d9e7ff; font: 400 16px "Segoe UI", Ubuntu, sans-serif; }
+    .empty { fill: #d9e7ff; font: 400 15px "Segoe UI", Ubuntu, sans-serif; }
+    .note { fill: #83a6d5; font: 400 13px "Segoe UI", Ubuntu, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="499" height="607" rx="5" fill="#171a29" stroke="#394360"/>
+  <text x="30" y="54" class="title">All-Time Coding</text>
+  <text x="30" y="116" class="empty">No tracked languages over one hour yet.</text><text x="30" y="148" class="note">Tracking is active; this card updates daily.</text>
+</svg>
