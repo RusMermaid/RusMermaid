@@ -33,7 +33,7 @@ MOONLIGHT_COLORS = (
 )
 SPIRE_PROJECT = os.environ.get("SPIRE_PROJECT", "SpireModH3")
 OUTPUT_PATH = Path(
-    os.environ.get("OUTPUT_PATH", "assets/wakatime-all-time.svg"),
+    os.environ.get("OUTPUT_PATH", "assets/wakatime-all-time-heroes-moonlight.svg"),
 )
 ESTIMATED_LIFETIME_HOURS = (
     ("C#", 3780),
