@@ -23,12 +23,12 @@ MIN_SECONDS = 60 * 60
 MAX_LANGUAGES = 7
 PINNED_LANGUAGES = ("C#", "F#", "Python")
 MOONLIGHT_COLORS = (
+    "#5a4028",
     "#a88465",
-    "#737b91",
-    "#536fa8",
+    "#46566f",
+    "#5d74a2",
     "#688ac0",
     "#83a6d5",
-    "#a8c8e8",
     "#d1e6fa",
 )
 SPIRE_PROJECT = os.environ.get("SPIRE_PROJECT", "SpireModH3")
@@ -241,7 +241,7 @@ def format_hours(seconds: float) -> str:
 def render_svg(languages: list[dict[str, Any]]) -> str:
     width = 500
     row_height = 70
-    height = 94 + row_height * max(len(languages), 1) + 24
+    height = 608
     maximum = max(
         (float(item["total_seconds"]) for item in languages),
         default=1.0,
@@ -249,10 +249,15 @@ def render_svg(languages: list[dict[str, Any]]) -> str:
 
     rows: list[str] = []
     if not languages:
-        rows.append(
-            '<text x="30" y="116" class="empty">'
-            "No all-time languages over one hour yet."
-            "</text>",
+        rows.extend(
+            [
+                '<text x="30" y="116" class="empty">'
+                "No tracked languages over one hour yet."
+                "</text>",
+                '<text x="30" y="148" class="note">'
+                "Tracking is active; this card updates daily."
+                "</text>",
+            ],
         )
     else:
         for index, item in enumerate(languages):
@@ -289,7 +294,8 @@ def render_svg(languages: list[dict[str, Any]]) -> str:
     .title {{ fill: #d2ad86; font: 700 25px "Segoe UI", Ubuntu, sans-serif; }}
     .language {{ fill: #d9e7ff; font: 400 17px "Segoe UI", Ubuntu, sans-serif; }}
     .hours {{ fill: #d9e7ff; font: 400 16px "Segoe UI", Ubuntu, sans-serif; }}
-    .empty {{ fill: #a8b9d8; font: 400 15px "Segoe UI", Ubuntu, sans-serif; }}
+    .empty {{ fill: #d9e7ff; font: 400 15px "Segoe UI", Ubuntu, sans-serif; }}
+    .note {{ fill: #83a6d5; font: 400 13px "Segoe UI", Ubuntu, sans-serif; }}
   </style>
   <rect x="0.5" y="0.5" width="499" height="{height - 1}" rx="5" fill="#171a29" stroke="#394360"/>
   <text x="30" y="54" class="title">All-Time Coding</text>
@@ -318,15 +324,13 @@ def main() -> None:
             )
         client = WakaTimeClient(api_key)
         global_languages = fetch_all_time_languages(client)
-        if not global_languages:
-            print("WakaTime has no recorded language time yet; card remains unpublished.")
-            return
-        spire_languages = fetch_project_languages(client, SPIRE_PROJECT)
+        spire_languages = (
+            fetch_project_languages(client, SPIRE_PROJECT)
+            if global_languages
+            else []
+        )
 
     languages = remap_and_sort(global_languages, spire_languages)
-    if not languages:
-        print("No WakaTime languages are over one hour yet; card remains unpublished.")
-        return
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(render_svg(languages), encoding="utf-8")
     print(f"Generated {OUTPUT_PATH} with {len(languages)} languages.")
