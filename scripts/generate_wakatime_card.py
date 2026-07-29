@@ -192,6 +192,10 @@ def remap_and_sort(
 ) -> list[dict[str, Any]]:
     seconds: dict[str, float] = defaultdict(float)
     colors: dict[str, str] = {}
+    estimated_names = {name for name, _ in ESTIMATED_LIFETIME_HOURS}
+
+    for name, hours in ESTIMATED_LIFETIME_HOURS:
+        seconds[name] += hours * 3600
 
     for language in global_languages:
         name = str(language.get("name", "Other"))
@@ -215,6 +219,7 @@ def remap_and_sort(
             "name": name,
             "total_seconds": total,
             "color": colors.get(name) or FALLBACK_COLORS.get(name, "#858585"),
+            "estimated": name in estimated_names,
         }
         for name, total in seconds.items()
         if total > MIN_SECONDS and name != "Other"
@@ -240,18 +245,6 @@ def remap_and_sort(
     return ordered
 
 
-def estimated_lifetime_languages() -> list[dict[str, Any]]:
-    return [
-        {
-            "name": name,
-            "total_seconds": hours * 3600,
-            "color": MOONLIGHT_COLORS[index],
-            "estimated": True,
-        }
-        for index, (name, hours) in enumerate(ESTIMATED_LIFETIME_HOURS)
-    ]
-
-
 def format_hours(seconds: float, estimated: bool = False) -> str:
     hours = seconds / 3600
     prefix = "~" if estimated else ""
@@ -264,9 +257,7 @@ def render_svg(languages: list[dict[str, Any]]) -> str:
     width = 500
     row_height = 70
     height = 608.333
-    estimated = bool(languages) and all(
-        bool(item.get("estimated")) for item in languages
-    )
+    estimated = any(bool(item.get("estimated")) for item in languages)
     maximum = max(
         (float(item["total_seconds"]) for item in languages),
         default=1.0,
@@ -314,13 +305,13 @@ def render_svg(languages: list[dict[str, Any]]) -> str:
         if estimated:
             rows.append(
                 '<text x="30" y="590" class="note">'
-                "≈ estimated history; live WakaTime replaces this automatically"
+                "≈ initial lifetime estimate + live WakaTime updates"
                 "</text>",
             )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="300" height="365" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
   <title id="title">All-Time Coding</title>
-  <desc id="desc">All-time language hours. Clearly labelled estimates are shown until C#, F#, and Python each have usable WakaTime history; SpireModH3 JSON is classified as C++.</desc>
+  <desc id="desc">All-time language hours combine a clearly labelled initial lifetime estimate with live WakaTime totals; SpireModH3 JSON is classified as C++.</desc>
   <style>
     .title {{ fill: #5a4028; font: 700 25px "Segoe UI", Ubuntu, sans-serif; }}
     .language {{ fill: #d9e7ff; font: 400 17px "Segoe UI", Ubuntu, sans-serif; }}
@@ -362,13 +353,7 @@ def main() -> None:
         )
 
     languages = remap_and_sort(global_languages, spire_languages)
-    tracked_pinned = {item["name"] for item in languages} & set(PINNED_LANGUAGES)
-    if tracked_pinned != set(PINNED_LANGUAGES):
-        languages = estimated_lifetime_languages()
-        print(
-            "Using clearly labelled lifetime estimates until C#, F#, and Python "
-            "each have more than one hour of WakaTime history.",
-        )
+    print("Added live WakaTime totals to the clearly labelled lifetime baseline.")
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(render_svg(languages), encoding="utf-8")
     print(f"Generated {OUTPUT_PATH} with {len(languages)} languages.")
