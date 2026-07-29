@@ -65,7 +65,7 @@
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/functional-analysis-heroes-badge.svg" alt="Functional Analysis" />
+  <img height="32" src="./assets/functional-analysis-heroes-badge-v2.svg" alt="Functional Analysis" />
   <img height="32" src="./assets/linear-algebra-heroes-badge.svg" alt="Linear Algebra" />
 </p>
 
