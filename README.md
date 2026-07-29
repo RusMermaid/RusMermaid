@@ -1,7 +1,7 @@
 <img src="./assets/my-skills-heroes-title.svg" alt="My Skills:" width="100%" />
 
 <p align="center">
-  <img height="34" src="./assets/csharp-heroes-badge.svg" alt="C#" />
+  <img height="34" src="./assets/csharp-heroes-badge-v2.svg" alt="C#" />
   <img height="34" src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="F#" />
   <img height="34" src="https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="VB.NET" />
   <img height="34" src="./assets/azure-dotnet-heroes-badge-v2.svg" alt="Azure.NET" />
@@ -15,6 +15,7 @@
   <img height="32" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Jupyter" />
   <img height="32" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="NumPy" />
   <img height="32" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Pandas" />
+  <img height="32" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="TensorFlow" />
   <img height="32" src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="SciPy" />
   <img height="32" src="https://img.shields.io/badge/CPlot-3F4F75?style=for-the-badge&logo=plotly&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="CPlot" />
 </p>
