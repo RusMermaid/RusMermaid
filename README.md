@@ -1,18 +1,18 @@
-# My Skills:
+<img src="./assets/my-skills-heroes-title.svg" alt="My Skills:" width="100%" />
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white&color=890ab8&labelColor=purple)
-![VB.Net](https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white&color=890ab8&labelColor=purple)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white&color=890ab8&labelColor=purple)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white&color=890ab8&labelColor=purple)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
+![VB.Net](https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=d9e7ff&color=5a4028&labelColor=5a4028)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white&color=f2870d&labelColor=f55210)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white&color=f2870d&labelColor=f55210)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white&color=f2870d&labelColor=f55210)
-![CPlot](https://img.shields.io/badge/CPlot-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white&color=f2870d&labelColor=f55210)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=d9e7ff&color=a88465&labelColor=a88465)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=d9e7ff&color=a88465&labelColor=a88465)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=d9e7ff&color=a88465&labelColor=a88465)
+![CPlot](https://img.shields.io/badge/CPlot-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=d9e7ff&color=a88465&labelColor=a88465)
 
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white&color=0ab076&labelColor=127c57)
-![Mathematica](https://img.shields.io/badge/Mathematica-%23008080.svg?style=for-the-badge&logo=scipy&logoColor=white&color=0ab076&labelColor=127c57)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white&color=0ab076&labelColor=127c57)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=d9e7ff&color=46566f&labelColor=46566f)
+![Mathematica](https://img.shields.io/badge/Mathematica-%23008080.svg?style=for-the-badge&logo=scipy&logoColor=d9e7ff&color=46566f&labelColor=46566f)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f)
 
 # Editors:
 
