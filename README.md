@@ -35,6 +35,7 @@
 <p align="center">
   <img height="32" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="GitHub" />
   <img height="32" src="https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Rider" />
+  <img height="32" src="./assets/visual-studio-heroes-badge.svg" alt="Visual Studio" />
   <img height="32" src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="CLion" />
   <img height="32" src="./assets/coq-heroes-badge-v2.svg" alt="Coq" />
 </p>
