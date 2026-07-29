@@ -55,7 +55,7 @@
   <img height="32" src="./assets/mathematical-logic-heroes-badge.svg" alt="Mathematical Logic" />
   <a href="https://github.com/RusMermaid/LC"><img height="32" src="./assets/lambda-calculus-heroes-badge.svg" alt="Lambda Calculus" /></a>
   <img height="32" src="./assets/proof-theory-heroes-badge.svg" alt="Proof Theory" />
-  <img height="32" src="./assets/category-theory-heroes-badge.svg" alt="Category Theory" />
+  <img height="32" src="./assets/category-theory-heroes-badge-v2.svg" alt="Category Theory" />
 </p>
 
 <!--
