@@ -129,7 +129,7 @@
       <svg data-testid="lang-progress" width="55.4598480799402%">
         <rect
             height="8"
-            fill="#a88465"
+            fill="#5a4028"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 750ms;"
@@ -148,7 +148,7 @@
       <svg data-testid="lang-progress" width="15.300347558316444%">
         <rect
             height="8"
-            fill="#737b91"
+            fill="#a88465"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 900ms;"
@@ -167,7 +167,7 @@
       <svg data-testid="lang-progress" width="10.05751313410624%">
         <rect
             height="8"
-            fill="#536fa8"
+            fill="#46566f"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 1050ms;"
@@ -186,7 +186,7 @@
       <svg data-testid="lang-progress" width="9.701516607456606%">
         <rect
             height="8"
-            fill="#688ac0"
+            fill="#5d74a2"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 1200ms;"
@@ -205,7 +205,7 @@
       <svg data-testid="lang-progress" width="4.401995626765473%">
         <rect
             height="8"
-            fill="#83a6d5"
+            fill="#688ac0"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 1350ms;"
@@ -224,7 +224,7 @@
       <svg data-testid="lang-progress" width="3.1344800677515106%">
         <rect
             height="8"
-            fill="#a8c8e8"
+            fill="#83a6d5"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 1500ms;"
