@@ -56,7 +56,7 @@ def set_testid_attr(svg: str, testid: str, attribute: str, value: str) -> str:
 
 
 def apply_moonlight(svg: str) -> str:
-    svg = svg.replace("#ff652f", "#d2ad86")
+    svg = svg.replace("#ff652f", "#5a4028")
     svg = svg.replace("#ffffff", "#d9e7ff")
     svg = set_testid_attr(svg, "card-bg", "fill", "#171a29")
     svg = set_testid_attr(svg, "card-bg", "stroke", "#394360")
