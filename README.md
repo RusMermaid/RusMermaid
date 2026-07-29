@@ -49,9 +49,9 @@ Follow me to a place...
 
 # My statistics:
 
-![Github stats](https://github-stats-extended.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true)
+![Github stats](https://github-stats-extended.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true&bg_color=171a29&title_color=d2ad86&text_color=d9e7ff&icon_color=83a6d5&border_color=394360)
 
-![My GitHub Language Stats](https://github-stats-extended.vercel.app/api/top-langs/?username=RusMermaid&langs_count=7&count_private=true&exclude_repo=Ural_CS&theme=codeSTACKr&hide=nix,dockerfile,html,glsl,gdscript,javascript,css)
+![My GitHub Language Stats](./assets/github-languages-moonlight.svg)
 <!--&include_repo=Ural_CS
 -->
 # Lets play Chess!
