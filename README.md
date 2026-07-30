@@ -74,18 +74,13 @@
 [![Generic badge]()](https://shields.io/)
 [![Generic badge]()](https://shields.io/)
 -->
-# My browsers:
+<img src="./assets/system-heroes-title.svg" alt="System:" width="100%" />
 
-![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white&color=4577da&labelColor=2e4f90)
-![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white&color=4577da&labelColor=2e4f90)
-![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white&color=4577da&labelColor=2e4f90)
-
-# My OS:
-
-![Apple](https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white&color=ff8cc8&labelColor=f6398e)
-
-
-
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/Apple-000000?style=for-the-badge&logo=apple&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Apple" />
+  <img height="32" src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macos&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="macOS" />
+  <img height="32" src="https://img.shields.io/badge/iPadOS-000000?style=for-the-badge&logo=ipados&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="iPadOS" />
+</p>
 
 Follow me to a place...
 
