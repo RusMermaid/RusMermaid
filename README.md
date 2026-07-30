@@ -79,7 +79,7 @@
 <p align="center">
   <img height="32" src="https://img.shields.io/badge/Apple-000000?style=for-the-badge&logo=apple&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Apple" />
   <img height="32" src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macos&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="macOS" />
-  <img height="32" src="https://img.shields.io/badge/iPadOS-000000?style=for-the-badge&logo=ipados&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="iPadOS" />
+  <img height="32" src="https://img.shields.io/badge/iPadOS-000000?style=for-the-badge&logo=ios&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="iPadOS" />
 </p>
 
 Follow me to a place...
