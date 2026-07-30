@@ -79,6 +79,7 @@
 <p align="center">
   <img height="32" src="./assets/apple-system-heroes-badge.svg" alt="Apple" />
   <img height="32" src="./assets/macos-system-heroes-badge.svg" alt="macOS" />
+  <img height="32" src="./assets/sidecar-system-heroes-badge.svg" alt="Sidecar" />
   <img height="32" src="./assets/ipados-system-heroes-badge.svg" alt="iPadOS" />
 </p>
 
