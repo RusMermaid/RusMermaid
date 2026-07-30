@@ -41,32 +41,32 @@
 </p>
 
 <p align="center">
-  <img height="32" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="PyCharm" />
-  <img height="32" src="https://img.shields.io/badge/Jupyter%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Jupyter Notebooks" />
-  <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Google Colab" />
-  <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Replit" />
-  <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=83a6d5&labelColor=83a6d5" alt="Overleaf" />
-  <img height="32" src="./assets/prism-heroes-badge.svg" alt="Prism" />
+  <img height="32" src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PyCharm" />
+  <img height="32" src="https://img.shields.io/badge/Jupyter%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Jupyter Notebooks" />
+  <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Google Colab" />
+  <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Replit" />
+  <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Overleaf" />
+  <img height="32" src="./assets/prism-heroes-badge-v2.svg" alt="Prism" />
 </p>
 
 <img src="./assets/mathematics-heroes-title.svg" alt="Mathematics:" width="100%" />
 
 <p align="center">
-  <img height="32" src="./assets/mathematical-logic-heroes-badge.svg" alt="Mathematical Logic" />
-  <a href="https://github.com/RusMermaid/LC"><img height="32" src="./assets/lambda-calculus-heroes-badge.svg" alt="Lambda Calculus" /></a>
-  <img height="32" src="./assets/proof-theory-heroes-badge.svg" alt="Proof Theory" />
-  <img height="32" src="./assets/category-theory-heroes-badge-v2.svg" alt="Category Theory" />
+  <img height="32" src="./assets/mathematical-logic-heroes-badge-v2.svg" alt="Mathematical Logic" />
+  <a href="https://github.com/RusMermaid/LC"><img height="32" src="./assets/lambda-calculus-heroes-badge-v2.svg" alt="Lambda Calculus" /></a>
+  <img height="32" src="./assets/proof-theory-heroes-badge-v2.svg" alt="Proof Theory" />
+  <img height="32" src="./assets/category-theory-heroes-badge-v3.svg" alt="Category Theory" />
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/real-analysis-heroes-badge-v4.svg" alt="Real Analysis" />
-  <img height="32" src="./assets/differential-topology-heroes-badge-v4.svg" alt="Differential Topology" />
-  <img height="32" src="./assets/geometric-topology-heroes-badge-v4.svg" alt="Geometric Topology" />
+  <img height="32" src="./assets/real-analysis-heroes-badge-v5.svg" alt="Real Analysis" />
+  <img height="32" src="./assets/differential-topology-heroes-badge-v5.svg" alt="Differential Topology" />
+  <img height="32" src="./assets/geometric-topology-heroes-badge-v5.svg" alt="Geometric Topology" />
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/functional-analysis-heroes-badge-v4.svg" alt="Functional Analysis" />
-  <img height="32" src="./assets/linear-algebra-heroes-badge.svg" alt="Linear Algebra" />
+  <img height="32" src="./assets/functional-analysis-heroes-badge-v5.svg" alt="Functional Analysis" />
+  <img height="32" src="./assets/linear-algebra-heroes-badge-v2.svg" alt="Linear Algebra" />
 </p>
 
 <!--
