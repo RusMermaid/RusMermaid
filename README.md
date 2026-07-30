@@ -87,6 +87,7 @@
   <a href="mailto:ruskb.gol.true@gmail.com"><img height="32" src="./assets/gmail-contact-heroes-badge.svg" alt="Email ruskb.gol.true@gmail.com" /></a>
   <img height="32" src="./assets/slack-contact-heroes-badge.svg" alt="Slack" />
   <a href="https://steamcommunity.com/id/RusMermaid"><img height="32" src="./assets/steam-contact-heroes-badge.svg" alt="Steam profile: RusMermaid" /></a>
+  <a href="https://notability.com/gallery/profile/rus_mermaid"><img height="32" src="./assets/notability-contact-heroes-badge.svg" alt="Notability Gallery profile: Rus Mermaid" /></a>
 </p>
 
 # My statistics:
