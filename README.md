@@ -90,7 +90,7 @@
   <a href="https://notability.com/gallery/profile/rus_mermaid"><img height="32" src="./assets/notability-contact-heroes-badge.svg" alt="Notability Gallery profile: Rus Mermaid" /></a>
 </p>
 
-<img src="./assets/statistics-heroes-title.svg" alt="My statistics:" width="100%" />
+<img src="./assets/statistics-heroes-title.svg" alt="Statistics:" width="100%" />
 
 <p align="center">
   <img width="98%" src="https://github-stats-extended.vercel.app/api?username=RusMermaid&amp;theme=codeSTACKr&amp;show_icons=true&amp;count_private=true&amp;bg_color=171a29&amp;title_color=5a4028&amp;text_color=d9e7ff&amp;icon_color=83a6d5&amp;border_color=394360" alt="Github stats" />
