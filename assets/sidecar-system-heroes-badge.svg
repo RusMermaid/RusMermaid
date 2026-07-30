@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="117" height="28" viewBox="0 0 117 28" role="img" aria-labelledby="title desc">
   <title id="title">Sidecar</title>
-  <desc id="desc">Sidecar badge with a Mac display and a landscape iPad in the Heroes moonlight second-blue palette.</desc>
+  <desc id="desc">Sidecar badge with a MacBook and a landscape iPad in the Heroes moonlight second-blue palette.</desc>
   <rect width="117" height="28" rx="3" fill="#83a6d5"/>
   <path d="M34 5v18" stroke="#46566f" stroke-width="1" opacity=".4"/>
   <g stroke="#46566f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="4.5" y="6.5" width="18" height="12" rx="1.5" fill="none"/>
-    <path d="M10.5 21.5h6M13.5 18.8v2.4" fill="none"/>
-    <rect x="17.5" y="9" width="13.5" height="10" rx="1.6" fill="#83a6d5"/>
-    <circle cx="28.5" cy="14" r=".65" fill="#46566f" stroke="none"/>
+    <rect x="4" y="6.5" width="18.5" height="11.5" rx="1.5" fill="none"/>
+    <path d="M3 20h20.5l-2 2.2H5z" fill="none"/>
+    <rect x="17.5" y="8.5" width="13.5" height="10.5" rx="1.6" fill="#83a6d5"/>
+    <circle cx="28.5" cy="13.75" r=".65" fill="#46566f" stroke="none"/>
   </g>
   <text x="75.5" y="18.2" text-anchor="middle" fill="#46566f" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".8">SIDECAR</text>
 </svg>
