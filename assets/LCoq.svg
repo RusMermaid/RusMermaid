@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="28" viewBox="0 0 84 28" role="img" aria-labelledby="title desc">
+  <title id="title">Coq</title>
+  <desc id="desc">Coq badge using a compact centered rooster silhouette in the Heroes moonlight palette</desc>
+  <rect width="84" height="28" rx="3" fill="#a88465"/>
+  <g transform="translate(4.69 3.75) scale(.72)">
+    <g fill="#d9e7ff">
+      <circle cx="15.3" cy="6.8" r="5.8"/>
+      <path d="m9.9 8.4-3.7 2.4 4.4.4Z"/>
+      <circle cx="21.1" cy="14.8" r="6.2"/>
+      <path d="M13 7.7c1.7.4 2.8 1.1 2.8 2.6 0 2.2-1.8 3.8-1.3 6.1.3 1.3 1.3 2.1 2.2 3 .8.8 1.1 1.8.9 3.1h-7.7c.2-1.5-.2-2.4-1.3-3.4-1.4-1.2-2.7-2.2-2.3-3.5.3-1.1 2.1-1.7 3.2-2.5 1.9-1.4 2.2-3.6 3.5-5.4Z"/>
+      <rect x="9.7" y="21" width="8.5" height="4.8"/>
+    </g>
+    <path d="M17.8 17.3c1.4-.8 2.4-1.7 2.7-3 .2-.8.9-1.2 1.5-.6 1.2 1.2.4 3.5-1.1 4.9" fill="none" stroke="#a88465" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <path d="M32 5v18" stroke="#d9e7ff" stroke-width="1" opacity=".35"/>
+  <text x="58" y="18.2" text-anchor="middle" fill="#d9e7ff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" letter-spacing="1">COQ</text>
+</svg>
