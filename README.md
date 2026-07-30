@@ -90,13 +90,14 @@
   <a href="https://notability.com/gallery/profile/rus_mermaid"><img height="32" src="./assets/notability-contact-heroes-badge.svg" alt="Notability Gallery profile: Rus Mermaid" /></a>
 </p>
 
-# My statistics:
+<img src="./assets/statistics-heroes-title.svg" alt="My statistics:" width="100%" />
 
-![Github stats](https://github-stats-extended.vercel.app/api?username=RusMermaid&theme=codeSTACKr&show_icons=true&count_private=true&bg_color=171a29&title_color=5a4028&text_color=d9e7ff&icon_color=83a6d5&border_color=394360)
+<p align="center">
+  <img width="98%" src="https://github-stats-extended.vercel.app/api?username=RusMermaid&amp;theme=codeSTACKr&amp;show_icons=true&amp;count_private=true&amp;bg_color=171a29&amp;title_color=5a4028&amp;text_color=d9e7ff&amp;icon_color=83a6d5&amp;border_color=394360" alt="Github stats" />
+</p>
 
-<p>
-  <img width="48%" align="center" src="./assets/github-languages-heroes-moonlight.svg" alt="My GitHub Language Stats" />
-  <img width="48%" align="center" src="./assets/wakatime-all-time-heroes-moonlight.svg" alt="My All-Time Coding Stats" />
+<p align="center">
+  <img width="49%" src="./assets/github-languages-heroes-moonlight.svg" alt="My GitHub Language Stats" /><img width="49%" src="./assets/wakatime-all-time-heroes-moonlight.svg" alt="My All-Time Coding Stats" />
 </p>
 
 <!--&include_repo=Ural_CS
