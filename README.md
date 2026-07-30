@@ -86,6 +86,7 @@
 <p align="center">
   <a href="mailto:ruskb.gol.true@gmail.com"><img height="32" src="./assets/gmail-contact-heroes-badge.svg" alt="Email ruskb.gol.true@gmail.com" /></a>
   <img height="32" src="./assets/slack-contact-heroes-badge.svg" alt="Slack" />
+  <a href="https://steamcommunity.com/id/RusMermaid"><img height="32" src="./assets/steam-contact-heroes-badge.svg" alt="Steam profile: RusMermaid" /></a>
 </p>
 
 # My statistics:
