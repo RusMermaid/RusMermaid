@@ -1,11 +1,11 @@
-<img src="./assets/my-skills-heroes-title.svg" alt="My Skills:" width="100%" />
+<img src="./assets/LMySkills.svg" alt="My Skills:" width="100%" />
 
 <p align="center">
-  <img height="34" src="./assets/csharp-heroes-badge-v2.svg" alt="C#" />
+  <img height="34" src="./assets/ACsharp.svg" alt="C#" />
   <img height="34" src="https://img.shields.io/badge/F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="F#" />
   <img height="34" src="https://img.shields.io/badge/VISUALBASIC.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="VB.NET" />
-  <img height="34" src="./assets/azure-dotnet-heroes-badge-v2.svg" alt="Azure.NET" />
-  <img height="34" src="./assets/asp-core-heroes-badge.svg" alt="ASP Core" />
+  <img height="34" src="./assets/MAzureDotNET.svg" alt="Azure.NET" />
+  <img height="34" src="./assets/BASPCore.svg" alt="ASP Core" />
   <img height="34" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt=".NET" />
   <img height="34" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=d9e7ff&color=5a4028&labelColor=5a4028" alt="C++" />
 </p>
@@ -21,23 +21,23 @@
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/latex-tex-heroes-badge.svg" alt="LaTeX" />
+  <img height="32" src="./assets/DLaTeX.svg" alt="LaTeX" />
   <img height="32" src="https://img.shields.io/badge/Mathematica-DD1100?style=for-the-badge&logo=wolframmathematica&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Mathematica" />
   <img height="32" src="https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="SymPy" />
   <img height="32" src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Haskell" />
-  <img height="32" src="./assets/uiua-official-heroes-badge-v3.svg" alt="Uiua" />
+  <img height="32" src="./assets/AUiua.svg" alt="Uiua" />
   <img height="32" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="MySQL" />
   <img height="32" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="PostgreSQL" />
 </p>
 
-<img src="./assets/editors-heroes-title-v2.svg" alt="Editors:" width="100%" />
+<img src="./assets/CEditors.svg" alt="Editors:" width="100%" />
 
 <p align="center">
   <img height="32" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="GitHub" />
   <img height="32" src="https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="Rider" />
-  <img height="32" src="./assets/visual-studio-heroes-badge.svg" alt="Visual Studio" />
+  <img height="32" src="./assets/AVisualStudio.svg" alt="Visual Studio" />
   <img height="32" src="https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=d9e7ff&color=a88465&labelColor=a88465" alt="CLion" />
-  <img height="32" src="./assets/coq-heroes-badge-v4.svg" alt="Coq" />
+  <img height="32" src="./assets/LCoq.svg" alt="Coq" />
 </p>
 
 <p align="center">
@@ -46,27 +46,27 @@
   <img height="32" src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Google Colab" />
   <img height="32" src="https://img.shields.io/badge/Repl.it-F26207?style=for-the-badge&logo=replit&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Replit" />
   <img height="32" src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=d9e7ff&color=46566f&labelColor=46566f" alt="Overleaf" />
-  <img height="32" src="./assets/prism-heroes-badge-v2.svg" alt="Prism" />
+  <img height="32" src="./assets/CPrism.svg" alt="Prism" />
 </p>
 
-<img src="./assets/mathematics-heroes-title.svg" alt="Mathematics:" width="100%" />
+<img src="./assets/UMathematics.svg" alt="Mathematics:" width="100%" />
 
 <p align="center">
-  <img height="32" src="./assets/mathematical-logic-heroes-badge-v2.svg" alt="Mathematical Logic" />
-  <a href="https://github.com/RusMermaid/LC"><img height="32" src="./assets/lambda-calculus-heroes-badge-v2.svg" alt="Lambda Calculus" /></a>
-  <img height="32" src="./assets/proof-theory-heroes-badge-v2.svg" alt="Proof Theory" />
-  <img height="32" src="./assets/category-theory-heroes-badge-v3.svg" alt="Category Theory" />
-</p>
-
-<p align="center">
-  <img height="32" src="./assets/real-analysis-heroes-badge-v5.svg" alt="Real Analysis" />
-  <img height="32" src="./assets/differential-topology-heroes-badge-v5.svg" alt="Differential Topology" />
-  <img height="32" src="./assets/geometric-topology-heroes-badge-v5.svg" alt="Geometric Topology" />
+  <img height="32" src="./assets/LMathematicalLogic.svg" alt="Mathematical Logic" />
+  <a href="https://github.com/RusMermaid/LC"><img height="32" src="./assets/ULambdaCalculus.svg" alt="Lambda Calculus" /></a>
+  <img height="32" src="./assets/SProofTheory.svg" alt="Proof Theory" />
+  <img height="32" src="./assets/FCategoryTheory.svg" alt="Category Theory" />
 </p>
 
 <p align="center">
-  <img height="32" src="./assets/functional-analysis-heroes-badge-v5.svg" alt="Functional Analysis" />
-  <img height="32" src="./assets/linear-algebra-heroes-badge-v2.svg" alt="Linear Algebra" />
+  <img height="32" src="./assets/SRealAnalysis.svg" alt="Real Analysis" />
+  <img height="32" src="./assets/HDifferentialTopology.svg" alt="Differential Topology" />
+  <img height="32" src="./assets/AGeometricTopology.svg" alt="Geometric Topology" />
+</p>
+
+<p align="center">
+  <img height="32" src="./assets/RFunctionalAnalysis.svg" alt="Functional Analysis" />
+  <img height="32" src="./assets/PLinearAlgebra.svg" alt="Linear Algebra" />
 </p>
 
 <!--
@@ -74,30 +74,30 @@
 [![Generic badge]()](https://shields.io/)
 [![Generic badge]()](https://shields.io/)
 -->
-<img src="./assets/system-heroes-title.svg" alt="System:" width="100%" />
+<img src="./assets/LSystem.svg" alt="System:" width="100%" />
 
 <p align="center">
-  <img height="32" src="./assets/apple-system-heroes-badge.svg" alt="Apple" />
-  <img height="32" src="./assets/macos-system-heroes-badge.svg" alt="macOS" />
-  <img height="32" src="./assets/sidecar-system-heroes-badge.svg" alt="Sidecar" />
-  <img height="32" src="./assets/ipados-system-heroes-badge.svg" alt="iPadOS" />
+  <img height="32" src="./assets/AApple.svg" alt="Apple" />
+  <img height="32" src="./assets/MMacOS.svg" alt="macOS" />
+  <img height="32" src="./assets/BSidecar.svg" alt="Sidecar" />
+  <img height="32" src="./assets/DIPadOS.svg" alt="iPadOS" />
 </p>
 
 <p align="center">
-  <a href="mailto:ruskb.gol.true@gmail.com"><img height="32" src="./assets/gmail-contact-heroes-badge.svg" alt="Email ruskb.gol.true@gmail.com" /></a>
-  <img height="32" src="./assets/slack-contact-heroes-badge.svg" alt="Slack" />
-  <a href="https://steamcommunity.com/id/RusMermaid"><img height="32" src="./assets/steam-contact-heroes-badge.svg" alt="Steam profile: RusMermaid" /></a>
-  <a href="https://notability.com/gallery/profile/rus_mermaid"><img height="32" src="./assets/notability-contact-heroes-badge.svg" alt="Notability Gallery profile: Rus Mermaid" /></a>
+  <a href="mailto:ruskb.gol.true@gmail.com"><img height="32" src="./assets/AGmail.svg" alt="Email ruskb.gol.true@gmail.com" /></a>
+  <img height="32" src="./assets/CSlack.svg" alt="Slack" />
+  <a href="https://steamcommunity.com/id/RusMermaid"><img height="32" src="./assets/ASteam.svg" alt="Steam profile: RusMermaid" /></a>
+  <a href="https://notability.com/gallery/profile/rus_mermaid"><img height="32" src="./assets/LNotability.svg" alt="Notability Gallery profile: Rus Mermaid" /></a>
 </p>
 
-<img src="./assets/statistics-heroes-title-v2.svg" alt="Statistics:" width="100%" />
+<img src="./assets/CStatistics.svg" alt="Statistics:" width="100%" />
 
 <p align="center">
   <img width="98%" src="https://github-stats-extended.vercel.app/api?username=RusMermaid&amp;theme=codeSTACKr&amp;show_icons=true&amp;count_private=true&amp;bg_color=171a29&amp;title_color=5a4028&amp;text_color=d9e7ff&amp;icon_color=83a6d5&amp;border_color=394360" alt="Github stats" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/github-languages-heroes-moonlight.svg" alt="My GitHub Language Stats" /><img width="49%" src="./assets/wakatime-all-time-heroes-moonlight.svg" alt="My All-Time Coding Stats" />
+  <img width="49%" src="./assets/UMostUsedLanguages.svg" alt="My GitHub Language Stats" /><img width="49%" src="./assets/LAllTimeCoding.svg" alt="My All-Time Coding Stats" />
 </p>
 
 <!--&include_repo=Ural_CS
