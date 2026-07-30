@@ -83,10 +83,10 @@
   <img height="32" src="./assets/ipados-system-heroes-badge.svg" alt="iPadOS" />
 </p>
 
-Follow me to a place...
-
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ruskb.gol.true@gmail.com)
+<p align="center">
+  <a href="mailto:ruskb.gol.true@gmail.com"><img height="32" src="./assets/gmail-contact-heroes-badge.svg" alt="Email ruskb.gol.true@gmail.com" /></a>
+  <img height="32" src="./assets/slack-contact-heroes-badge.svg" alt="Slack" />
+</p>
 
 # My statistics:
 
