@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="101" height="28" viewBox="0 0 101 28" role="img" aria-labelledby="title desc">
-  <title id="title">Gmail</title>
-  <desc id="desc">Gmail contact badge in the lower-emphasis Heroes moonlight palette.</desc>
-  <rect width="101" height="28" rx="3" fill="#d1e6fa"/>
-  <path d="M34 5v18" stroke="#46566f" stroke-width="1" opacity=".4"/>
-  <g fill="#46566f" transform="translate(8 5) scale(.75)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></g>
-  <text x="67.5" y="18.2" text-anchor="middle" fill="#46566f" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".8">GMAIL</text>
-</svg>
