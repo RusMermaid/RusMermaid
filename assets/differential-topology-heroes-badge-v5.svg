@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="215" height="28" viewBox="0 0 215 28" role="img" aria-labelledby="title desc">
-  <title id="title">Differential Topology</title>
-  <desc id="desc">Differential Topology badge with an inverted triangle and a midpoint subdivision triangle</desc>
-  <rect width="215" height="28" rx="3" fill="#83a6d5"/>
-  <path d="M34 5v18" stroke="#46566f" stroke-width="1" opacity=".4"/>
-  <path d="M8.5 6.5h17L17 22Z" fill="none" stroke="#46566f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M17 6.5L21.25 14.25H12.75Z" fill="none" stroke="#46566f" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="124.5" y="18.2" text-anchor="middle" fill="#46566f" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".7">DIFFERENTIAL TOPOLOGY</text>
-</svg>
