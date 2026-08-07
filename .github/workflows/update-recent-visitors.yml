@@ -65,6 +65,6 @@ jobs:
           if [ "${VISITOR_LOGIN,,}" = "${GITHUB_REPOSITORY_OWNER,,}" ]; then
             MESSAGE="Thanks for checking the profile. The profile owner is not included in the public visitor row."
           else
-            MESSAGE="Thanks @${VISITOR_LOGIN}! You are now shown among the three most recent public visitors."
+            MESSAGE="Thanks @${VISITOR_LOGIN}! You are now shown among the five most recent public visitors."
           fi
           gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --comment "$MESSAGE"

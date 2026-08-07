@@ -33,7 +33,7 @@ MOONLIGHT_COLORS = (
 )
 SPIRE_PROJECT = os.environ.get("SPIRE_PROJECT", "SpireModH3")
 OUTPUT_PATH = Path(
-    os.environ.get("OUTPUT_PATH", "assets/wakatime-all-time-heroes-moonlight.svg"),
+    os.environ.get("OUTPUT_PATH", "assets/LAllTimeCoding.svg"),
 )
 ESTIMATED_LIFETIME_HOURS = (
     ("C#", 3780),
@@ -311,13 +311,13 @@ def render_svg(languages: list[dict[str, Any]]) -> str:
         if estimated:
             rows.append(
                 '<text x="30" y="590" class="note">'
-                "≈ initial lifetime estimate + live WakaTime updates"
+                "lifetime + live worker time"
                 "</text>",
             )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="300" height="365" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
   <title id="title">All-Time Coding</title>
-  <desc id="desc">All-time language hours combine a clearly labelled initial lifetime estimate with live WakaTime totals; SpireModH3 JSON is classified as C++.</desc>
+  <desc id="desc">All-time language hours combine a lifetime estimate with live WakaTime worker time; SpireModH3 JSON is classified as C++.</desc>
   <style>
     .title {{ fill: #5a4028; font: 700 25px "Segoe UI", Ubuntu, sans-serif; }}
     .language {{ fill: #d9e7ff; font: 400 17px "Segoe UI", Ubuntu, sans-serif; }}
@@ -359,7 +359,7 @@ def main() -> None:
         )
 
     languages = remap_and_sort(global_languages, spire_languages)
-    print("Added live WakaTime totals to the clearly labelled lifetime baseline.")
+    print("Added live WakaTime worker time to the lifetime baseline.")
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(render_svg(languages), encoding="utf-8")
     print(f"Generated {OUTPUT_PATH} with {len(languages)} languages.")

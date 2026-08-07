@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update the three opt-in public visitors shown in the profile README."""
+"""Update the five public visitors shown in the profile README."""
 
 from __future__ import annotations
 
@@ -12,17 +12,18 @@ from pathlib import Path
 BEGIN_MARKER = "<!-- BEGIN RECENT VISITORS -->"
 END_MARKER = "<!-- END RECENT VISITORS -->"
 LOGIN_PATTERN = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$")
-MAX_VISITORS = 3
+MAX_VISITORS = 5
+VISITOR_CELL_WIDTH = "14%"
 
 
-def validate_login(login: str) -> str:
+def valid(login: str) -> str:
     login = login.strip().lstrip("@")
     if not LOGIN_PATTERN.fullmatch(login):
         raise ValueError(f"Invalid GitHub login: {login!r}")
     return login
 
 
-def load_visitors(path: Path) -> list[str]:
+def load(path: Path) -> list[str]:
     if not path.exists():
         return []
 
@@ -35,7 +36,7 @@ def load_visitors(path: Path) -> list[str]:
     for item in raw:
         if not isinstance(item, str):
             raise ValueError("Every recent visitor must be a GitHub login string")
-        login = validate_login(item)
+        login = valid(item)
         folded = login.casefold()
         if folded not in seen:
             seen.add(folded)
@@ -43,9 +44,14 @@ def load_visitors(path: Path) -> list[str]:
     return visitors
 
 
-def update_visitors(visitors: list[str], login: str, owner: str) -> list[str]:
-    login = validate_login(login)
-    owner = validate_login(owner)
+def save(path: Path, visitors: list[str]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(visitors, indent=2) + "\n", encoding="utf-8")
+
+
+def add(visitors: list[str], login: str, owner: str) -> list[str]:
+    login = valid(login)
+    owner = valid(owner)
     visitors = [
         visitor
         for visitor in visitors
@@ -61,24 +67,22 @@ def update_visitors(visitors: list[str], login: str, owner: str) -> list[str]:
     ][: MAX_VISITORS - 1]
 
 
-def visitor_cell(login: str) -> str:
-    return (
-        f'      <td align="center" width="18%"><a href="https://github.com/{login}">'
-        f'<img src="https://github.com/{login}.png?size=64" alt="@{login}" width="56">'
-        f'<br><strong>@{login}</strong></a></td>'
+def cell(login: str) -> str:
+    display_login = login.replace("-", "&#8209;")
+    return f'      <td align="center" valign="top" width="{VISITOR_CELL_WIDTH}"><a href="https://github.com/{login}"><img src="https://github.com/{login}.png?size=64" alt="@{login}" width="52" height="52"><br><strong>@{display_login}</strong></a></td>'
+
+
+def cells(visitors: list[str]) -> str:
+    rows = [cell(login) for login in visitors[:MAX_VISITORS]]
+    rows.extend(
+        f'      <td align="center" valign="top" width="{VISITOR_CELL_WIDTH}">'
+        '<sub>Waiting for a visitor</sub></td>'
+        for _ in range(MAX_VISITORS - len(rows))
     )
+    return "\n".join(rows)
 
 
-def render_cells(visitors: list[str]) -> str:
-    cells = [visitor_cell(login) for login in visitors[:MAX_VISITORS]]
-    cells.extend(
-        '      <td align="center" width="18%"><sub>Waiting for a visitor</sub></td>'
-        for _ in range(MAX_VISITORS - len(cells))
-    )
-    return "\n".join(cells)
-
-
-def update_readme(readme: str, visitors: list[str]) -> str:
+def inject(readme: str, visitors: list[str]) -> str:
     if readme.count(BEGIN_MARKER) != 1 or readme.count(END_MARKER) != 1:
         raise ValueError("README must contain exactly one recent-visitors marker pair")
 
@@ -87,7 +91,7 @@ def update_readme(readme: str, visitors: list[str]) -> str:
     if start >= end:
         raise ValueError("Recent-visitors markers are out of order")
 
-    return readme[:start] + "\n" + render_cells(visitors) + "\n      " + readme[end:]
+    return readme[:start] + "\n" + cells(visitors) + "\n      " + readme[end:]
 
 
 def main() -> None:
@@ -100,11 +104,10 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    visitors = update_visitors(load_visitors(args.data), args.login, args.owner)
-    readme = update_readme(args.readme.read_text(encoding="utf-8"), visitors)
+    visitors = add(load(args.data), args.login, args.owner)
+    readme = inject(args.readme.read_text(encoding="utf-8"), visitors)
 
-    args.data.parent.mkdir(parents=True, exist_ok=True)
-    args.data.write_text(json.dumps(visitors, indent=2) + "\n", encoding="utf-8")
+    save(args.data, visitors)
     args.readme.write_text(readme, encoding="utf-8")
 
 

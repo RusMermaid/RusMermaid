@@ -70,7 +70,7 @@ def generate_top_moves():
 
     return markdown + "\n"
 
-def _read_last_move_entries():
+def _moves():
     entries = []
 
     with open("data/last_moves.txt", 'r') as file:
@@ -92,7 +92,7 @@ def _read_last_move_entries():
     return entries
 
 
-def _piece_history(game):
+def _pieces(game):
     if game is None:
         return []
 
@@ -115,7 +115,7 @@ def _piece_history(game):
     return history
 
 
-def _load_current_game():
+def _game():
     if not os.path.exists('games/current.pgn'):
         return None
 
@@ -123,11 +123,11 @@ def _load_current_game():
         return chess.pgn.read_game(pgn_file)
 
 
-def _match_recent_pieces(entries, game):
+def _match(entries, game):
     # last_moves.txt is newest-first while the PGN mainline is chronological.
     # Walking both in reverse order makes repeated source/destination pairs
     # unambiguous and records the piece before captures or promotions occur.
-    recent_history = list(reversed(_piece_history(game)))
+    recent_history = list(reversed(_pieces(game)))
     cursor = 0
     matched = []
 
@@ -145,7 +145,7 @@ def _match_recent_pieces(entries, game):
     return matched
 
 
-def _reconstruct_piece_history(entries):
+def _replay(entries):
     # Compatibility fallback for older forks that have last_moves.txt but no
     # readable PGN. Since the file retains the complete game newest-first, it
     # can be replayed from the initial position to recover each moving piece.
@@ -186,24 +186,22 @@ def _reconstruct_piece_history(entries):
 
 
 def generate_last_moves(game=None):
-    entries = _read_last_move_entries()
+    entries = _moves()
     if game is None:
-        game = _load_current_game()
+        game = _game()
 
-    piece_details = _match_recent_pieces(entries, game)
+    piece_details = _match(entries, game)
     if any(detail is None for detail in piece_details):
-        fallback_details = _reconstruct_piece_history(entries)
+        fallback_details = _replay(entries)
         piece_details = [
             detail or fallback
             for detail, fallback in zip(piece_details, fallback_details)
         ]
 
-    markdown = "\n"
-    markdown += "| Turn | Move | Author |\n"
-    markdown += "| :--: | :--: | :----- |\n"
-
     max_entries = settings['misc']['max_last_moves']
-    for entry, detail in list(zip(entries, piece_details))[:max_entries]:
+    selected = list(zip(entries, piece_details))[:max_entries]
+
+    def cells(entry, detail):
         if detail is not None:
             turn = (
                 f'<img src="{detail["image"]}" alt="{detail["label"]}" width="40"><br>'
@@ -218,8 +216,24 @@ def generate_last_moves(game=None):
             move = f'`{entry["move_text"]}`'
 
         author = entry['author']
-        author_link = create_link(" " + author, "https://github.com/" + author.lstrip('@'))
-        markdown += f"| {turn} | {move} | {author_link} |\n"
+        author_link = create_link(author, "https://github.com/" + author.lstrip('@'))
+        return turn, move, author_link
+
+    markdown = "\n"
+    markdown += "| Turn | Move | Author | Turn | Move | Author |\n"
+    markdown += "| :--: | :--: | :--: | :--: | :--: | :--: |\n"
+
+    left_size = (len(selected) + 1) // 2
+    left = selected[:left_size]
+    right = selected[left_size:]
+
+    for index, (entry, detail) in enumerate(left):
+        row = list(cells(entry, detail))
+        if index < len(right):
+            row.extend(cells(*right[index]))
+        else:
+            row.extend(("", "", ""))
+        markdown += "| " + " | ".join(row) + " |\n"
 
     return markdown + "\n"
 

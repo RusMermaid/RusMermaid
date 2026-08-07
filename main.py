@@ -4,6 +4,7 @@ import sys
 import ast
 from enum import Enum
 from datetime import datetime
+from pathlib import Path
 
 import chess
 import chess.pgn
@@ -12,6 +13,7 @@ from github import Github
 
 import src.markdown as markdown
 import src.selftest as selftest
+from scripts import update_recent_visitors as recent
 
 # TODO: Use an image instead of a raw link to start new games
 
@@ -42,6 +44,21 @@ def update_last_moves(line):
         content = last_moves.read()
         last_moves.seek(0, 0)
         last_moves.write(line.rstrip('\r\n') + '\n' + content)
+
+
+def visit(readme, user, owner):
+    """Add a public chess participant to the visitor row."""
+    if user.casefold() == owner.casefold():
+        return readme
+
+    data_path = Path('data/recent_visitors.json')
+    visitors = recent.add(
+        recent.load(data_path),
+        user,
+        owner,
+    )
+    recent.save(data_path, visitors)
+    return recent.inject(readme, visitors)
 
 
 def replace_text_between(original_text, marker, replacement_text):
@@ -203,6 +220,7 @@ def main(issue, issue_author, repo_owner):
         readme = replace_text_between(readme, settings['markers']['turn'], '{turn}')
         readme = replace_text_between(readme, settings['markers']['last_moves'], '{last_moves}')
         readme = replace_text_between(readme, settings['markers']['top_moves'], '{top_moves}')
+        readme = visit(readme, issue_author, repo_owner)
 
     with open('README.md', 'w') as file:
         # Write new board & list of movements
