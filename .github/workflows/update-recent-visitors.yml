@@ -1,0 +1,70 @@
+name: Update recent profile visitors
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update-recent-profile-visitors
+  cancel-in-progress: false
+
+jobs:
+  check-in:
+    if: "${{ github.event.issue.title == 'Visitor: Check in' }}"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Record public visitor
+        env:
+          VISITOR_LOGIN: ${{ github.event.issue.user.login }}
+        run: python scripts/update_recent_visitors.py "$VISITOR_LOGIN"
+
+      - name: Commit visitor list
+        env:
+          VISITOR_LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/recent_visitors.json
+          if git diff --cached --quiet; then
+            echo "Visitor is intentionally not included or is already current."
+          else
+            git commit -m "Record profile visitor @${VISITOR_LOGIN}"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "::error::Could not publish the visitor update after three attempts."
+                exit 1
+              fi
+              echo "Push raced with another profile update; retrying (${attempt}/3)."
+              sleep 5
+            done
+          fi
+
+      - name: Thank visitor and close check-in
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          VISITOR_LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          if [ "${VISITOR_LOGIN,,}" = "${GITHUB_REPOSITORY_OWNER,,}" ]; then
+            MESSAGE="Thanks for checking the profile. The profile owner is not included in the public visitor row."
+          else
+            MESSAGE="Thanks @${VISITOR_LOGIN}! You are now shown among the three most recent public visitors."
+          fi
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --comment "$MESSAGE"

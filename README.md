@@ -351,13 +351,25 @@
 
 
 <table>
+  <thead>
+    <tr>
+      <th>Profile visitors</th>
+      <th colspan="3">Last public visitors</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <th>Visitors</th>
-      <td><img src="https://visitor-badge.laobi.icu/badge?page_id=RusMermaid.RusMermaid&amp;left_color=%235a4028&amp;right_color=%23688ac0&amp;left_text=PROFILE%20VISITORS" alt="Profile visitor count"></td>
+      <td align="center" width="46%"><img src="https://visitor-badge.laobi.icu/badge?page_id=RusMermaid.RusMermaid&amp;left_color=%235a4028&amp;right_color=%23a88465&amp;left_text=PROFILE%20VISITORS" alt="Profile visitor count"></td>
+      <!-- BEGIN RECENT VISITORS -->
+      <td align="center" width="18%"><a href="https://github.com/fiorin"><img src="https://github.com/fiorin.png?size=64" alt="@fiorin" width="56"><br><strong>@fiorin</strong></a></td>
+      <td align="center" width="18%"><a href="https://github.com/UltWolf"><img src="https://github.com/UltWolf.png?size=64" alt="@UltWolf" width="56"><br><strong>@UltWolf</strong></a></td>
+      <td align="center" width="18%"><a href="https://github.com/charlie-sans"><img src="https://github.com/charlie-sans.png?size=64" alt="@charlie-sans" width="56"><br><strong>@charlie-sans</strong></a></td>
+      <!-- END RECENT VISITORS -->
     </tr>
   </tbody>
 </table>
+
+<p align="center"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?title=Visitor%3A%20Check%20in&amp;body=Submit%20this%20issue%20unchanged%20to%20appear%20among%20the%20last%20three%20public%20visitors.">Check in to appear among the last three public visitors</a></p>
 
 ![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
 <br />
