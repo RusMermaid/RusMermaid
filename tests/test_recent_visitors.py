@@ -9,32 +9,40 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class RecentVisitorsTests(unittest.TestCase):
-    def test_new_check_in_is_first_and_list_stays_at_three(self):
-        current = ["fiorin", "UltWolf", "charlie-sans"]
+    def test_add(self):
+        current = ["fiorin", "UltWolf", "charlie-sans", "martimine26", "Quofite"]
         self.assertEqual(
-            visitors.update_visitors(current, "octocat", "RusMermaid"),
-            ["octocat", "fiorin", "UltWolf"],
+            visitors.add(current, "octocat", "RusMermaid"),
+            ["octocat", "fiorin", "UltWolf", "charlie-sans", "martimine26"],
         )
 
-    def test_repeat_check_in_moves_to_front_without_duplicates(self):
-        current = ["fiorin", "UltWolf", "charlie-sans"]
+    def test_repeat(self):
+        current = ["fiorin", "UltWolf", "charlie-sans", "martimine26", "Quofite"]
         self.assertEqual(
-            visitors.update_visitors(current, "ultwolf", "RusMermaid"),
-            ["ultwolf", "fiorin", "charlie-sans"],
+            visitors.add(current, "ultwolf", "RusMermaid"),
+            ["ultwolf", "fiorin", "charlie-sans", "martimine26", "Quofite"],
         )
 
-    def test_owner_is_never_included(self):
+    def test_owner(self):
         current = ["RusMermaid", "fiorin", "UltWolf"]
         self.assertEqual(
-            visitors.update_visitors(current, "rusmermaid", "RusMermaid"),
+            visitors.add(current, "rusmermaid", "RusMermaid"),
             ["fiorin", "UltWolf"],
         )
 
-    def test_invalid_login_is_rejected(self):
+    def test_invalid(self):
         with self.assertRaises(ValueError):
-            visitors.validate_login("not/a-login")
+            visitors.valid("not/a-login")
 
-    def test_repository_data_and_readme_are_synchronized(self):
+    def test_cells(self):
+        rendered = visitors.cells(
+            ["fiorin", "UltWolf", "charlie-sans", "martimine26", "Quofite"]
+        )
+        self.assertEqual(rendered.count('<td align="center" valign="top" width="14%">'), 5)
+        self.assertEqual(rendered.count('width="52" height="52"'), 5)
+        self.assertIn("@charlie&#8209;sans", rendered)
+
+    def test_sync(self):
         data = json.loads(
             (ROOT / "data/recent_visitors.json").read_text(encoding="utf-8")
         )
@@ -42,7 +50,7 @@ class RecentVisitorsTests(unittest.TestCase):
         start = readme.index(visitors.BEGIN_MARKER) + len(visitors.BEGIN_MARKER)
         end = readme.index(visitors.END_MARKER)
         self.assertEqual(
-            readme[start:end].strip(), visitors.render_cells(data).strip()
+            readme[start:end].strip(), visitors.cells(data).strip()
         )
         self.assertNotIn("RusMermaid", data)
 

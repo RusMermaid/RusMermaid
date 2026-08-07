@@ -334,42 +334,40 @@
 
 
 <details>
-  <summary>Last 5 moves in this game</summary>
+  <summary>Last 6 moves in this game</summary>
 <!-- BEGIN LAST MOVES -->
 
-| Turn | Move | Author |
-| :--: | :--: | :----- |
-| <img src="img/white/bishop.png" alt="White Bishop" width="40"><br><strong>White Bishop</strong> | `F1` to `E2` | [ @RusMermaid](https://github.com/RusMermaid) |
-| <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `G7` to `G6` | [ @fiorin](https://github.com/fiorin) |
-| <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `A2` to `A3` | [ @RusMermaid](https://github.com/RusMermaid) |
-| <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `C7` to `C6` | [ @UltWolf](https://github.com/UltWolf) |
-| <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `C3` to `D4` | [ @RusMermaid](https://github.com/RusMermaid) |
+| Turn | Move | Author | Turn | Move | Author |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| <img src="img/white/bishop.png" alt="White Bishop" width="40"><br><strong>White Bishop</strong> | `F1` to `E2` | [@RusMermaid](https://github.com/RusMermaid) | <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `C7` to `C6` | [@UltWolf](https://github.com/UltWolf) |
+| <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `G7` to `G6` | [@fiorin](https://github.com/fiorin) | <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `C3` to `D4` | [@RusMermaid](https://github.com/RusMermaid) |
+| <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `A2` to `A3` | [@RusMermaid](https://github.com/RusMermaid) | <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `A5` to `A4` | [@charlie-sans](https://github.com/charlie-sans) |
 
 <!-- END LAST MOVES -->
 </details>
 
 
 
-<table>
+<table width="100%">
   <thead>
     <tr>
-      <th>Profile visitors</th>
-      <th colspan="3">Last public visitors</th>
+      <th width="30%">Profile visitors</th>
+      <th colspan="5">Last public visitors</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" width="46%"><img src="https://visitor-badge.laobi.icu/badge?page_id=RusMermaid.RusMermaid&amp;left_color=%235a4028&amp;right_color=%23a88465&amp;left_text=PROFILE%20VISITORS" alt="Profile visitor count"></td>
+      <td align="center" valign="top" width="30%"><img src="https://visitor-badge.laobi.icu/badge?page_id=RusMermaid.RusMermaid&amp;left_color=%235a4028&amp;right_color=%23a88465&amp;left_text=PROFILE%20VISITORS" alt="Profile visitor count"></td>
       <!-- BEGIN RECENT VISITORS -->
-      <td align="center" width="18%"><a href="https://github.com/fiorin"><img src="https://github.com/fiorin.png?size=64" alt="@fiorin" width="56"><br><strong>@fiorin</strong></a></td>
-      <td align="center" width="18%"><a href="https://github.com/UltWolf"><img src="https://github.com/UltWolf.png?size=64" alt="@UltWolf" width="56"><br><strong>@UltWolf</strong></a></td>
-      <td align="center" width="18%"><a href="https://github.com/charlie-sans"><img src="https://github.com/charlie-sans.png?size=64" alt="@charlie-sans" width="56"><br><strong>@charlie-sans</strong></a></td>
+      <td align="center" valign="top" width="14%"><a href="https://github.com/fiorin"><img src="https://github.com/fiorin.png?size=64" alt="@fiorin" width="52" height="52"><br><strong>@fiorin</strong></a></td>
+      <td align="center" valign="top" width="14%"><a href="https://github.com/UltWolf"><img src="https://github.com/UltWolf.png?size=64" alt="@UltWolf" width="52" height="52"><br><strong>@UltWolf</strong></a></td>
+      <td align="center" valign="top" width="14%"><a href="https://github.com/charlie-sans"><img src="https://github.com/charlie-sans.png?size=64" alt="@charlie-sans" width="52" height="52"><br><strong>@charlie&#8209;sans</strong></a></td>
+      <td align="center" valign="top" width="14%"><a href="https://github.com/martimine26"><img src="https://github.com/martimine26.png?size=64" alt="@martimine26" width="52" height="52"><br><strong>@martimine26</strong></a></td>
+      <td align="center" valign="top" width="14%"><a href="https://github.com/Quofite"><img src="https://github.com/Quofite.png?size=64" alt="@Quofite" width="52" height="52"><br><strong>@Quofite</strong></a></td>
       <!-- END RECENT VISITORS -->
     </tr>
   </tbody>
 </table>
-
-<p align="center"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?title=Visitor%3A%20Check%20in&amp;body=Submit%20this%20issue%20unchanged%20to%20appear%20among%20the%20last%20three%20public%20visitors.">Check in to appear among the last three public visitors</a></p>
 
 ![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
 <br />
