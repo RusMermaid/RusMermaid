@@ -120,20 +120,213 @@
 **It's your turn to move! Choose one from the following table by clicking a linked move, them just submitt the issue without changing anything!**
 **And you're goog to go!**
 <!-- BEGIN MOVES LIST -->
-|  FROM  | TO (Just click a link!) |
-| :----: | :---------------------- |
-| **A8** | [A5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A8+to+A5), [A6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A8+to+A6), [A7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A8+to+A7), [B8](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A8+to+B8) |
-| **B5** | [B4](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B5+to+B4) |
-| **C6** | [C5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C6+to+C5) |
-| **C8** | [A6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+A6), [B7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+B7), [D7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+D7), [E6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+E6), [F5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+F5), [G4](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+G4), [H3](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C8+to+H3) |
-| **D8** | [A5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+A5), [B6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+B6), [C7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+C7), [D6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+D6), [D7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D8+to+D7) |
-| **E7** | [E6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E7+to+E6) |
-| **E8** | [D7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E8+to+D7) |
-| **F7** | [F5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F7+to+F5), [F6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F7+to+F6) |
-| **F8** | [G7](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+G7), [H6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F8+to+H6) |
-| **G6** | [G5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G6+to+G5) |
-| **G8** | [F6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+F6), [H6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+H6) |
-| **H7** | [H5](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H7+to+H5), [H6](https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H7+to+H6) |
+<table>
+  <thead>
+    <tr>
+      <th align="center">PIECE / FROM</th>
+      <th align="center">LEGAL DESTINATIONS — click to move</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="img/black/rook.png" alt="Black Rook on A8" width="54"><br>
+        <strong>A8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+A8+to+A5" title="Move black rook from A8 to A5"><img src="img/black/rook.png" alt="" width="46"><br><strong>A5</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+A8+to+A6" title="Move black rook from A8 to A6"><img src="img/black/rook.png" alt="" width="46"><br><strong>A6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+A8+to+A7" title="Move black rook from A8 to A7"><img src="img/black/rook.png" alt="" width="46"><br><strong>A7</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+A8+to+B8" title="Move black rook from A8 to B8"><img src="img/black/rook.png" alt="" width="46"><br><strong>B8</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on B5" width="54"><br>
+        <strong>B5</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+B5+to+B4" title="Move black pawn from B5 to B4"><img src="img/black/pawn.png" alt="" width="46"><br><strong>B4</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on C6" width="54"><br>
+        <strong>C6</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C6+to+C5" title="Move black pawn from C6 to C5"><img src="img/black/pawn.png" alt="" width="46"><br><strong>C5</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/bishop.png" alt="Black Bishop on C8" width="54"><br>
+        <strong>C8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+A6" title="Move black bishop from C8 to A6"><img src="img/black/bishop.png" alt="" width="46"><br><strong>A6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+B7" title="Move black bishop from C8 to B7"><img src="img/black/bishop.png" alt="" width="46"><br><strong>B7</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+D7" title="Move black bishop from C8 to D7"><img src="img/black/bishop.png" alt="" width="46"><br><strong>D7</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+E6" title="Move black bishop from C8 to E6"><img src="img/black/bishop.png" alt="" width="46"><br><strong>E6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+F5" title="Move black bishop from C8 to F5"><img src="img/black/bishop.png" alt="" width="46"><br><strong>F5</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+G4" title="Move black bishop from C8 to G4"><img src="img/black/bishop.png" alt="" width="46"><br><strong>G4</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+C8+to+H3" title="Move black bishop from C8 to H3"><img src="img/black/bishop.png" alt="" width="46"><br><strong>H3</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/queen.png" alt="Black Queen on D8" width="54"><br>
+        <strong>D8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+D8+to+A5" title="Move black queen from D8 to A5"><img src="img/black/queen.png" alt="" width="46"><br><strong>A5</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+D8+to+B6" title="Move black queen from D8 to B6"><img src="img/black/queen.png" alt="" width="46"><br><strong>B6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+D8+to+C7" title="Move black queen from D8 to C7"><img src="img/black/queen.png" alt="" width="46"><br><strong>C7</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+D8+to+D6" title="Move black queen from D8 to D6"><img src="img/black/queen.png" alt="" width="46"><br><strong>D6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+D8+to+D7" title="Move black queen from D8 to D7"><img src="img/black/queen.png" alt="" width="46"><br><strong>D7</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on E7" width="54"><br>
+        <strong>E7</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+E7+to+E6" title="Move black pawn from E7 to E6"><img src="img/black/pawn.png" alt="" width="46"><br><strong>E6</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/king.png" alt="Black King on E8" width="54"><br>
+        <strong>E8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+E8+to+D7" title="Move black king from E8 to D7"><img src="img/black/king.png" alt="" width="46"><br><strong>D7</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on F7" width="54"><br>
+        <strong>F7</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+F7+to+F5" title="Move black pawn from F7 to F5"><img src="img/black/pawn.png" alt="" width="46"><br><strong>F5</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+F7+to+F6" title="Move black pawn from F7 to F6"><img src="img/black/pawn.png" alt="" width="46"><br><strong>F6</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/bishop.png" alt="Black Bishop on F8" width="54"><br>
+        <strong>F8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+F8+to+G7" title="Move black bishop from F8 to G7"><img src="img/black/bishop.png" alt="" width="46"><br><strong>G7</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+F8+to+H6" title="Move black bishop from F8 to H6"><img src="img/black/bishop.png" alt="" width="46"><br><strong>H6</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on G6" width="54"><br>
+        <strong>G6</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+G6+to+G5" title="Move black pawn from G6 to G5"><img src="img/black/pawn.png" alt="" width="46"><br><strong>G5</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/knight.png" alt="Black Knight on G8" width="54"><br>
+        <strong>G8</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+G8+to+F6" title="Move black knight from G8 to F6"><img src="img/black/knight.png" alt="" width="46"><br><strong>F6</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+G8+to+H6" title="Move black knight from G8 to H6"><img src="img/black/knight.png" alt="" width="46"><br><strong>H6</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="img/black/pawn.png" alt="Black Pawn on H7" width="54"><br>
+        <strong>H7</strong>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+H7+to+H5" title="Move black pawn from H7 to H5"><img src="img/black/pawn.png" alt="" width="46"><br><strong>H5</strong></a></td>
+              <td align="center" width="72"><a href="https://github.com/RusMermaid/RusMermaid/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&amp;title=Chess%3A+Move+H7+to+H6" title="Move black pawn from H7 to H6"><img src="img/black/pawn.png" alt="" width="46"><br><strong>H6</strong></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
 <!-- END MOVES LIST -->
 
 Having fun? Ask a friend to do the next move!
