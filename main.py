@@ -167,7 +167,7 @@ def main(issue, issue_author, repo_owner):
     # Save game to "games/current.pgn"
     print(game, file=open('games/current.pgn', 'w'), end='\n\n')
 
-    last_moves = markdown.generate_last_moves()
+    last_moves = markdown.generate_last_moves(game)
 
     # If it is a game over, archive current game
     if gameboard.is_game_over():

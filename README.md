@@ -118,7 +118,7 @@
 <!-- END CHESS BOARD -->
 
 **It's your turn to move! Choose one from the following table by clicking a linked move, them just submitt the issue without changing anything!**
-**And you're goog to go!**
+**And you're good to go!**
 <!-- BEGIN MOVES LIST -->
 <table>
   <thead>
@@ -329,7 +329,7 @@
 </table>
 <!-- END MOVES LIST -->
 
-Having fun? Ask a friend to do the next move!
+### Having fun? Ask a friend to do the next move!
 
 
 
@@ -337,23 +337,27 @@ Having fun? Ask a friend to do the next move!
   <summary>Last 5 moves in this game</summary>
 <!-- BEGIN LAST MOVES -->
 
-| Move | Author |
-| :--: | :----- |
-| `F1` to `E2` | [ @RusMermaid](https://github.com/RusMermaid) |
-| `G7` to `G6` | [ @fiorin](https://github.com/fiorin) |
-| `A2` to `A3` | [ @RusMermaid](https://github.com/RusMermaid) |
-| `C7` to `C6` | [ @UltWolf](https://github.com/UltWolf) |
-| `C3` to `D4` | [ @RusMermaid](https://github.com/RusMermaid) |
+| Turn | Move | Author |
+| :--: | :--: | :----- |
+| <img src="img/white/bishop.png" alt="White Bishop" width="40"><br><strong>White Bishop</strong> | `F1` to `E2` | [ @RusMermaid](https://github.com/RusMermaid) |
+| <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `G7` to `G6` | [ @fiorin](https://github.com/fiorin) |
+| <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `A2` to `A3` | [ @RusMermaid](https://github.com/RusMermaid) |
+| <img src="img/black/pawn.png" alt="Black Pawn" width="40"><br><strong>Black Pawn</strong> | `C7` to `C6` | [ @UltWolf](https://github.com/UltWolf) |
+| <img src="img/white/pawn.png" alt="White Pawn" width="40"><br><strong>White Pawn</strong> | `C3` to `D4` | [ @RusMermaid](https://github.com/RusMermaid) |
 
 <!-- END LAST MOVES -->
 </details>
 
 
 
-<p> 
-  Visitors<br>
-  <img src="https://profile-counter.glitch.me/RusMermaid/count.svg" />
-</p>
+<table>
+  <tbody>
+    <tr>
+      <th>Visitors</th>
+      <td><img src="https://profile-counter.glitch.me/RusMermaid/count.svg" alt="Profile visitor count"></td>
+    </tr>
+  </tbody>
+</table>
 
 ![picture](https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif)
 <br />
