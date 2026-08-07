@@ -1,5 +1,6 @@
 from collections import defaultdict
 from urllib.parse import urlencode
+from html import escape
 import os
 import re
 import ast
@@ -11,16 +12,48 @@ with open('data/settings.yaml', 'r') as settings_file:
     settings = yaml.load(settings_file, Loader=yaml.FullLoader)
 
 
+PIECE_IMAGES = {
+    "r": "img/black/rook.png",
+    "n": "img/black/knight.png",
+    "b": "img/black/bishop.png",
+    "q": "img/black/queen.png",
+    "k": "img/black/king.png",
+    "p": "img/black/pawn.png",
+    "R": "img/white/rook.png",
+    "N": "img/white/knight.png",
+    "B": "img/white/bishop.png",
+    "Q": "img/white/queen.png",
+    "K": "img/white/king.png",
+    "P": "img/white/pawn.png",
+}
+
+
 def create_link(text, link):
     return f"[{text}]({link})"
 
-def create_issue_link(source, dest_list):
+def create_issue_url(source, dest):
     issue_link = settings['issues']['link'].format(
         repo=os.environ["GITHUB_REPOSITORY"],
         params=urlencode(settings['issues']['move'], safe="{}"))
 
-    ret = [create_link(dest, issue_link.format(source=source, dest=dest)) for dest in sorted(dest_list)]
+    return issue_link.format(source=source, dest=dest)
+
+def create_issue_link(source, dest_list):
+    ret = [create_link(dest, create_issue_url(source, dest)) for dest in sorted(dest_list)]
     return ", ".join(ret)
+
+def create_move_tile(source, dest, image_path, piece_name):
+    link = escape(create_issue_url(source, dest), quote=True)
+    description = escape(f"Move {piece_name} from {source} to {dest}", quote=True)
+
+    return (
+        '<td align="center" width="72">'
+        f'<a href="{link}" title="{description}">'
+        f'<img src="{image_path}" alt="" width="46"><br>'
+        f'<strong>{dest}</strong>'
+        '</a>'
+        '</td>'
+    )
 
 def generate_top_moves():
     with open("data/top_moves.txt", 'r') as file:
@@ -67,7 +100,9 @@ def generate_last_moves():
     return markdown + "\n"
 
 def generate_moves_list(board):
-    # Create dictionary and fill it
+    # Group legal destinations by their source square. Promotion moves may
+    # share a destination, so a set keeps the same one-link-per-square
+    # behaviour as the original move list.
     moves_dict = defaultdict(set)
 
     for move in board.legal_moves:
@@ -76,7 +111,6 @@ def generate_moves_list(board):
 
         moves_dict[source].add(dest)
 
-    # Write everything in Markdown format
     markdown = ""
 
     if board.is_game_over():
@@ -89,11 +123,54 @@ def generate_moves_list(board):
     if board.is_check():
         markdown += "**CHECK!** Choose your move wisely!\n"
 
-    markdown += "|  FROM  | TO (Just click a link!) |\n"
-    markdown += "| :----: | :---------------------- |\n"
+    markdown += '<table>\n'
+    markdown += '  <thead>\n'
+    markdown += '    <tr>\n'
+    markdown += '      <th align="center">PIECE / FROM</th>\n'
+    markdown += '      <th align="center">LEGAL DESTINATIONS — click to move</th>\n'
+    markdown += '    </tr>\n'
+    markdown += '  </thead>\n'
+    markdown += '  <tbody>\n'
 
-    for source,dest in sorted(moves_dict.items()):
-        markdown += "| **" + source + "** | " + create_issue_link(source, dest) + " |\n"
+    for source,destinations in sorted(moves_dict.items()):
+        source_square = chess.parse_square(source.lower())
+        piece = board.piece_at(source_square)
+
+        # Every legal move necessarily has a piece on its source square.
+        # Keep an explicit failure here so a malformed board cannot silently
+        # generate broken image paths or move links.
+        if piece is None:
+            raise ValueError(f"No piece found on legal move source {source}")
+
+        image_path = PIECE_IMAGES[piece.symbol()]
+        colour = "white" if piece.color == chess.WHITE else "black"
+        piece_name = f"{colour} {chess.piece_name(piece.piece_type)}"
+
+        markdown += '    <tr>\n'
+        markdown += '      <td align="center">\n'
+        markdown += (
+            f'        <img src="{image_path}" alt="{piece_name.title()} on {source}" '
+            'width="54"><br>\n'
+        )
+        markdown += f'        <strong>{source}</strong>\n'
+        markdown += '      </td>\n'
+        markdown += '      <td>\n'
+        markdown += '        <table>\n'
+        markdown += '          <tbody>\n'
+        markdown += '            <tr>\n'
+
+        for dest in sorted(destinations):
+            markdown += '              ' + create_move_tile(
+                source, dest, image_path, piece_name) + '\n'
+
+        markdown += '            </tr>\n'
+        markdown += '          </tbody>\n'
+        markdown += '        </table>\n'
+        markdown += '      </td>\n'
+        markdown += '    </tr>\n'
+
+    markdown += '  </tbody>\n'
+    markdown += '</table>\n'
 
     return markdown
 
@@ -101,23 +178,7 @@ def board_to_markdown(board):
     board_list = [[item for item in line.split(' ')] for line in str(board).split('\n')]
     markdown = ""
 
-    images = {
-        "r": "img/black/rook.png",
-        "n": "img/black/knight.png",
-        "b": "img/black/bishop.png",
-        "q": "img/black/queen.png",
-        "k": "img/black/king.png",
-        "p": "img/black/pawn.png",
-
-        "R": "img/white/rook.png",
-        "N": "img/white/knight.png",
-        "B": "img/white/bishop.png",
-        "Q": "img/white/queen.png",
-        "K": "img/white/king.png",
-        "P": "img/white/pawn.png",
-
-        ".": "img/blank.png"
-    }
+    images = dict(PIECE_IMAGES, **{".": "img/blank.png"})
 
     # Write header in Markdown format
     markdown += "|   | A | B | C | D | E | F | G | H |   |\n"
