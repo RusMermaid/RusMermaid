@@ -354,7 +354,7 @@
   <tbody>
     <tr>
       <th>Visitors</th>
-      <td><img src="https://profile-counter.glitch.me/RusMermaid/count.svg" alt="Profile visitor count"></td>
+      <td><img src="https://visitor-badge.laobi.icu/badge?page_id=RusMermaid.RusMermaid&amp;left_color=%235a4028&amp;right_color=%23688ac0&amp;left_text=PROFILE%20VISITORS" alt="Profile visitor count"></td>
     </tr>
   </tbody>
 </table>
