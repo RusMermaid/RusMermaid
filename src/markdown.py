@@ -6,6 +6,7 @@ import re
 import ast
 
 import chess
+import chess.pgn
 import yaml
 
 with open('data/settings.yaml', 'r') as settings_file:
@@ -69,33 +70,156 @@ def generate_top_moves():
 
     return markdown + "\n"
 
-def generate_last_moves():
-    markdown = "\n"
-    markdown += "| Move | Author |\n"
-    markdown += "| :--: | :----- |\n"
-
-    counter = 0
+def _read_last_move_entries():
+    entries = []
 
     with open("data/last_moves.txt", 'r') as file:
         for line in file.readlines():
-            parts = line.rstrip().split(':')
-
-            if not ":" in line:
+            move_text, separator, author = line.rstrip().partition(':')
+            if not separator:
                 continue
 
-            if counter >= settings['misc']['max_last_moves']:
-                break
+            match_obj = re.search(
+                r'([A-H][1-8])([A-H][1-8])([QRBN])?', move_text, re.I)
+            entries.append({
+                'move_text': move_text,
+                'author': author.strip(),
+                'source': match_obj.group(1).upper() if match_obj else None,
+                'dest': match_obj.group(2).upper() if match_obj else None,
+                'uci': match_obj.group(0).lower() if match_obj else None,
+            })
 
-            counter += 1
+    return entries
 
-            match_obj = re.search('([A-H][1-8])([A-H][1-8])', line, re.I)
-            if match_obj is not None:
-                source = match_obj.group(1).upper()
-                dest   = match_obj.group(2).upper()
 
-                markdown += "| `" + source + "` to `" + dest + "` | " + create_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
-            else:
-                markdown += "| `" + parts[0] + "` | " + create_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
+def _piece_history(game):
+    if game is None:
+        return []
+
+    board = game.board()
+    history = []
+
+    for move in game.mainline_moves():
+        piece = board.piece_at(move.from_square)
+        if piece is None:
+            raise ValueError(f"No piece found for recorded move {move.uci()}")
+
+        colour = "White" if piece.color == chess.WHITE else "Black"
+        history.append({
+            'uci': move.uci().lower(),
+            'image': PIECE_IMAGES[piece.symbol()],
+            'label': f"{colour} {chess.piece_name(piece.piece_type).title()}",
+        })
+        board.push(move)
+
+    return history
+
+
+def _load_current_game():
+    if not os.path.exists('games/current.pgn'):
+        return None
+
+    with open('games/current.pgn') as pgn_file:
+        return chess.pgn.read_game(pgn_file)
+
+
+def _match_recent_pieces(entries, game):
+    # last_moves.txt is newest-first while the PGN mainline is chronological.
+    # Walking both in reverse order makes repeated source/destination pairs
+    # unambiguous and records the piece before captures or promotions occur.
+    recent_history = list(reversed(_piece_history(game)))
+    cursor = 0
+    matched = []
+
+    for entry in entries:
+        detail = None
+        if entry['uci'] is not None:
+            for index in range(cursor, len(recent_history)):
+                candidate = recent_history[index]
+                if candidate['uci'][:4] == entry['uci'][:4]:
+                    detail = candidate
+                    cursor = index + 1
+                    break
+        matched.append(detail)
+
+    return matched
+
+
+def _reconstruct_piece_history(entries):
+    # Compatibility fallback for older forks that have last_moves.txt but no
+    # readable PGN. Since the file retains the complete game newest-first, it
+    # can be replayed from the initial position to recover each moving piece.
+    board = chess.Board()
+    details = [None] * len(entries)
+
+    for index in range(len(entries) - 1, -1, -1):
+        entry = entries[index]
+        if entry['uci'] is None:
+            continue
+
+        try:
+            move = chess.Move.from_uci(entry['uci'])
+        except ValueError:
+            continue
+
+        if move not in board.legal_moves and len(entry['uci']) == 4:
+            promoted_move = chess.Move.from_uci(entry['uci'] + 'q')
+            if promoted_move in board.legal_moves:
+                move = promoted_move
+
+        if move not in board.legal_moves:
+            continue
+
+        piece = board.piece_at(move.from_square)
+        if piece is None:
+            continue
+
+        colour = "White" if piece.color == chess.WHITE else "Black"
+        details[index] = {
+            'uci': move.uci().lower(),
+            'image': PIECE_IMAGES[piece.symbol()],
+            'label': f"{colour} {chess.piece_name(piece.piece_type).title()}",
+        }
+        board.push(move)
+
+    return details
+
+
+def generate_last_moves(game=None):
+    entries = _read_last_move_entries()
+    if game is None:
+        game = _load_current_game()
+
+    piece_details = _match_recent_pieces(entries, game)
+    if any(detail is None for detail in piece_details):
+        fallback_details = _reconstruct_piece_history(entries)
+        piece_details = [
+            detail or fallback
+            for detail, fallback in zip(piece_details, fallback_details)
+        ]
+
+    markdown = "\n"
+    markdown += "| Turn | Move | Author |\n"
+    markdown += "| :--: | :--: | :----- |\n"
+
+    max_entries = settings['misc']['max_last_moves']
+    for entry, detail in list(zip(entries, piece_details))[:max_entries]:
+        if detail is not None:
+            turn = (
+                f'<img src="{detail["image"]}" alt="{detail["label"]}" width="40"><br>'
+                f'<strong>{detail["label"]}</strong>'
+            )
+        else:
+            turn = "<strong>New Game</strong>" if entry['uci'] is None else "<strong>Piece</strong>"
+
+        if entry['source'] is not None:
+            move = f'`{entry["source"]}` to `{entry["dest"]}`'
+        else:
+            move = f'`{entry["move_text"]}`'
+
+        author = entry['author']
+        author_link = create_link(" " + author, "https://github.com/" + author.lstrip('@'))
+        markdown += f"| {turn} | {move} | {author_link} |\n"
 
     return markdown + "\n"
 
